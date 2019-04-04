@@ -24,9 +24,9 @@ modules:
       - pip3 install --prefix=/app --disable-pip-version-check --no-build-isolation --no-deps .
     sources:
       - type: git
-        tag: 1.0.0rc1
+        tag: 1.0.0
         url: https://github.com/gaphor/gaphor
-        commit: 48c2bcff5ae32a6b6c4cae19d8d43634573741de
+        commit: d49a87c00231b40331056004cbf3b80895c99bf4
     post-install:
       - install -Dm644 flatpak/org.gaphor.Gaphor.appdata.xml /app/share/appdata/org.gaphor.Gaphor.appdata.xml
       - install -Dm644 flatpak/org.gaphor.Gaphor.desktop /app/share/applications/org.gaphor.Gaphor.desktop
