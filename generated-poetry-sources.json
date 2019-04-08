@@ -2,7 +2,8 @@
     "name": "poetry-deps",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} decorator future gaphas pycairo pygobject simplegeneric zope.component zope.deferredimport zope.deprecation zope.event zope.hookable zope.interface zope.proxy"
+        "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} decorator future gaphas pygobject simplegeneric zope.component zope.deferredimport zope.deprecation zope.event zope.hookable zope.interface zope.proxy",
+        "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --ignore-install --upgrade pycairo"
     ],
     "sources": [
         {
