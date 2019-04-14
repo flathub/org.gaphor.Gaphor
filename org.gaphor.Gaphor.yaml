@@ -20,14 +20,21 @@ modules:
   - name: gaphor
     buildsystem: simple
     build-commands:
-      - pip3 install --no-index --prefix=/app --no-deps --find-links=. . setuptools wheel poetry attrs cachecontrol cachy certifi chardet cleo enum34 glob2 html5lib idna jsonschema lockfile msgpack pastel pathlib2 pkginfo pylev pyparsing pyrsistent requests requests-toolbelt scandir shellingham six tomlkit typing urllib3 virtualenv webencodings decorator future gaphas pygobject simplegeneric zope.component zope.deferredimport zope.deprecation zope.event zope.hookable zope.interface zope.proxy pycairo
+      - 'pip3 install --no-index --prefix=/app --no-deps --find-links=. .
+        setuptools wheel poetry attrs cachecontrol cachy certifi chardet cleo
+        enum34 glob2 html5lib idna jsonschema lockfile msgpack pastel pathlib2
+        pkginfo pylev pyparsing pyrsistent requests requests-toolbelt scandir
+        shellingham six tomlkit typing urllib3 virtualenv webencodings decorator
+        future gaphas pygobject simplegeneric zope.component zope.deferredimport
+        zope.deprecation zope.event zope.hookable zope.interface zope.proxy
+        pycairo'
     sources:
       - type: git
         #        tag: 1.0.0.post2
         url: https://github.com/gaphor/gaphor
-        commit: 176c52f7dc04fcce7c9d6d19519209f82eea3319
+        commit: 30604132e2994937bb3ab0cae3f9dfd1c2d03177
       - type: file
-        url: https://files.pythonhosted.org/packages/ba/19/1119fe7b1e49b9c8a9f154c930060f37074ea2e8f9f6558efc2eeaa417a2/decorator-4.4.0.tar.gz
+        url: https://files.pythonhosted.org/packages/ba/19/1119tfe7b1e49b9c8a9f154c930060f37074ea2e8f9f6558efc2eeaa417a2/decorator-4.4.0.tar.gz
         sha256: 86156361c50488b84a3f148056ea716ca587df2f0de1d34750d35c21312725de
       - type: file
         url: https://files.pythonhosted.org/packages/90/52/e20466b85000a181e1e144fd8305caf2cf475e2f9674e797b222f8105f5f/future-0.17.1.tar.gz
