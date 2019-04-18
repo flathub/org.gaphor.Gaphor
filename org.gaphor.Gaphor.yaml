@@ -32,7 +32,7 @@ modules:
       - type: git
         tag: 1.0.1
         url: https://github.com/gaphor/gaphor
-        commit: f465aa7a4148de12e665ad4a8a1594ad66142750
+        commit: 669cab09baa78b4c39ac8b096082b0794b45f0e4
       - type: file
         url: https://files.pythonhosted.org/packages/ba/19/1119tfe7b1e49b9c8a9f154c930060f37074ea2e8f9f6558efc2eeaa417a2/decorator-4.4.0.tar.gz
         sha256: 86156361c50488b84a3f148056ea716ca587df2f0de1d34750d35c21312725de
