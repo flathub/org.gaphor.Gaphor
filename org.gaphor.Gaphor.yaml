@@ -32,6 +32,15 @@ modules:
         url: https://github.com/gaphor/gaphor
         commit: 7a293ceb3c1dee3709ba4d768db4dfc9eb171b86
       - type: file
+        url: https://files.pythonhosted.org/packages/c8/b0/cc6b7ba28d5fb790cf0d5946df849233e32b8872b6baca10c9e002ff5b41/setuptools-41.0.0-py2.py3-none-any.whl
+        sha256: e67486071cd5cdeba783bd0b64f5f30784ff855b35071c8670551fd7fc52d4a1
+      - type: file
+        url: https://files.pythonhosted.org/packages/96/ba/a4702cbb6a3a485239fbe9525443446203f00771af9ac000fa3ef2788201/wheel-0.33.1-py2.py3-none-any.whl
+        sha256: 8eb4a788b3aec8abf5ff68d4165441bc57420c9f64ca5f471f58c3969fe08668
+      - type: file
+        url: https://files.pythonhosted.org/packages/fc/d8/9329f555ce7f19fc55ae111cf4cad17186280a9625765720b97f9888b337/poetry-0.12.12-py2.py3-none-any.whl
+        sha256: 1410fedec6e1b58759b663d4018370a94ed2c291138dd05de7ef3c2a8fbeed97
+      - type: file
         url: https://files.pythonhosted.org/packages/56/eb/810e700ed1349edde4cbdc1b2a21e28cdf115f9faf263f6bbf8447c1abf3/appdirs-1.4.3-py2.py3-none-any.whl
         sha256: d8b24664561d0d34ddfaec54636d502d7cea6e29c3eaf68f3df6180863e2166e
       - type: file
