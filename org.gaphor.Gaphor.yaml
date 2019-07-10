@@ -81,7 +81,7 @@ modules:
       - type: git
         # tag: 1.0.1.post1
         url: https://github.com/gaphor/gaphor
-        commit: 7a293ceb3c1dee3709ba4d768db4dfc9eb171b86
+        commit: d60f71ddf3e37589d37e82eab2780cb9e9b1af79
       - type: file
         url: https://files.pythonhosted.org/packages/c8/b0/cc6b7ba28d5fb790cf0d5946df849233e32b8872b6baca10c9e002ff5b41/setuptools-41.0.0-py2.py3-none-any.whl
         sha256: e67486071cd5cdeba783bd0b64f5f30784ff855b35071c8670551fd7fc52d4a1
