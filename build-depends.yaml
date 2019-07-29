@@ -1,7 +1,7 @@
 name: python3-poetry
 buildsystem: simple
 build-commands:
-  - pip3 install --no-index --find-links "file://${PWD}" --prefix=${FLATPAK_DEST} poetry
+  - pip3 install --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} poetry
 sources:
   - type: file
     url: https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl
@@ -25,8 +25,8 @@ sources:
     url: https://files.pythonhosted.org/packages/23/96/d828354fa2dbdf216eaa7b7de0db692f12c234f7ef888cc14980ef40d1d2/attrs-19.1.0-py2.py3-none-any.whl
     sha256: 69c0dbf2ed392de1cb5ec704444b08a5ef81680a61cb899dc08127123af36a79
   - type: file
-    url: https://files.pythonhosted.org/packages/a8/7b/630049fc4af9e68a625738612edc264ce7cb586c5001a2d4d2209a4f61c1/msgpack-0.6.1-cp37-cp37m-manylinux1_x86_64.whl
-    sha256: 7c55649965c35eb32c499d17dadfb8f53358b961582846e1bc06f66b9bccc556
+    url: https://files.pythonhosted.org/packages/81/9c/0036c66234482044070836cc622266839e2412f8108849ab0bfdeaab8578/msgpack-0.6.1.tar.gz
+    sha256: 4008c72f5ef2b7936447dcb83db41d97e9791c83221be13d5e19db0796df1972
   - type: file
     url: https://files.pythonhosted.org/packages/26/37/8ce3e7b330078b6797a34e79a80a8ad6935e404a3b903765417182c9ce19/cachy-0.2.0-py2.py3-none-any.whl
     sha256: b71e8e7ddb5b386e23e81befdfac8a93885406139b8681bedc17b3444fcb8fca
