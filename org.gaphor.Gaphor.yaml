@@ -24,7 +24,7 @@ modules:
       - type: git
         tag: 1.1.0
         url: https://github.com/gaphor/gaphor
-        commit: 08c401fd1c05d0a58c0952689e277133792ffaa1
+        commit: f29d8538382a0ac0e4945e088f0c693e44e8f3f1
     post-install:
       - install -Dm644 flatpak/org.gaphor.Gaphor.appdata.xml /app/share/metainfo/org.gaphor.Gaphor.appdata.xml
       - install -Dm644 flatpak/org.gaphor.Gaphor.desktop /app/share/applications/org.gaphor.Gaphor.desktop
