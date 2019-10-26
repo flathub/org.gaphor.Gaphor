@@ -22,9 +22,9 @@ modules:
       - 'pip3 install --no-index --prefix=${FLATPAK_DEST} ./dist/gaphor*.whl'
     sources:
       - type: git
-        # tag: 1.0.2
+        tag: 1.1.0
         url: https://github.com/gaphor/gaphor
-        commit: 369ba17021179ad19b9ae13358223ef88b99c482
+        commit: 08c401fd1c05d0a58c0952689e277133792ffaa1
     post-install:
       - install -Dm644 flatpak/org.gaphor.Gaphor.appdata.xml /app/share/metainfo/org.gaphor.Gaphor.appdata.xml
       - install -Dm644 flatpak/org.gaphor.Gaphor.desktop /app/share/applications/org.gaphor.Gaphor.desktop
