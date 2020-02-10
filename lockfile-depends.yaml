@@ -2,26 +2,26 @@ name: poetry-deps
 buildsystem: simple
 build-commands:
   - pip3 install --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST}
-    future gaphas importlib-metadata more-itertools pycairo pygobject zipp
+    gaphas generic importlib-metadata==1.5.0 pycairo pygobject typing-extensions zipp
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/90/52/e20466b85000a181e1e144fd8305caf2cf475e2f9674e797b222f8105f5f/future-0.17.1.tar.gz
-    sha256: 67045236dcfd6816dc439556d009594abf643e5eb48992e36beac09c2ca659b8
+    url: https://files.pythonhosted.org/packages/2e/1a/0fa68ef2a9047d70c6b2bd2aae9c0918d9f5c3f1c5d1f6244b58ec1d4605/gaphas-2.0.1-py3-none-any.whl
+    sha256: 36ca8b6fbad7e200101f6f585699206b2f8e8f042116b67df77d2b487e33c884
   - type: file
-    url: https://files.pythonhosted.org/packages/65/81/d1d7c68c7ad64b0ef35659fe7a6aaa47635dab6aec0cf12dcf7d0ee5932a/gaphas-1.1.1-py2.py3-none-any.whl
-    sha256: 210d36249f56ade49d394c79ae7f62a2ecec85ef75b87ac3f2ff231ce6fcaaa2
+    url: https://files.pythonhosted.org/packages/b5/76/0a9388e6dde0b00202da3585ff7441bddb9b39a3435486742ab5e4609a6e/generic-1.0.0-py3-none-any.whl
+    sha256: a8dbb3133929223149272fcc70a95967cf3b24e3fa12601f91c67fb61efe29d4
   - type: file
-    url: https://files.pythonhosted.org/packages/f6/d2/40b3fa882147719744e6aa50ac39cf7a22a913cbcba86a0371176c425a3b/importlib_metadata-0.23-py2.py3-none-any.whl
-    sha256: d5f18a79777f3aa179c145737780282e27b508fc8fd688cb17c7a813e8bd39af
+    url: https://files.pythonhosted.org/packages/8b/03/a00d504808808912751e64ccf414be53c29cad620e3de2421135fcae3025/importlib_metadata-1.5.0-py2.py3-none-any.whl
+    sha256: b97607a1a18a5100839aec1dc26a1ea17ee0d93b20b0f008d80a5a050afb200b
   - type: file
-    url: https://files.pythonhosted.org/packages/45/dc/3241eef99eb45f1def35cf93af35d1cf9ef4c0991792583b8f33ea41b092/more_itertools-7.2.0-py3-none-any.whl
-    sha256: 92b8c4b06dac4f0611c0729b2f2ede52b2e1bac1ab48f089c7ddc12e26bb60c4
-  - type: file
-    url: https://files.pythonhosted.org/packages/3c/1a/c0478ecab31baae50fda9956547788afbd0ca563adc52c9b03cab30f17eb/pycairo-1.18.2.tar.gz
-    sha256: dcb853fd020729516e8828ad364084e752327d4cff8505d20b13504b32b16531
+    url: https://files.pythonhosted.org/packages/25/95/ac361f06789c7dad19c37f4d7043df9275f416dffcdc44e22c3befeb7b08/pycairo-1.19.0.tar.gz
+    sha256: 4f5ba9374a46c98729dd3727d993f5e17ed0286fd6738ed464fe4efa0612d19c
   - type: file
     url: https://files.pythonhosted.org/packages/46/8a/b183f3edc812d4d28c8b671a922b5bc2863be5d38c56b3ad9155815e78dd/PyGObject-3.34.0.tar.gz
     sha256: 2acb0daf2b3a23a90f52066cc23d1053339fee2f5f7f4275f8baa3704ae0c543
   - type: file
-    url: https://files.pythonhosted.org/packages/74/3d/1ee25a26411ba0401b43c6376d2316a71addcc72ef8690b101b4ea56d76a/zipp-0.6.0-py2.py3-none-any.whl
-    sha256: f06903e9f1f43b12d371004b4ac7b06ab39a44adc747266928ae6debfa7b3335
+    url: https://files.pythonhosted.org/packages/03/92/705fe8aca27678e01bbdd7738173b8e7df0088a2202c80352f664630d638/typing_extensions-3.7.4.1-py3-none-any.whl
+    sha256: cf8b63fedea4d89bab840ecbb93e75578af28f76f66c35889bd7065f5af88575
+  - type: file
+    url: https://files.pythonhosted.org/packages/46/42/f2dd964b2a6b1921b08d661138148c1bcd3f038462a44019416f2342b618/zipp-2.2.0-py36-none-any.whl
+    sha256: d65287feb793213ffe11c0f31b81602be31448f38aeb8ffc2eb286c4f6f6657e

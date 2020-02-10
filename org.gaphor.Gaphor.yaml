@@ -18,19 +18,18 @@ modules:
   - name: gaphor
     buildsystem: simple
     build-commands:
-      - 'poetry config settings.virtualenvs.create false && poetry build'
+      - 'poetry config virtualenvs.create false && poetry build'
       - 'pip3 install --no-index --prefix=${FLATPAK_DEST} ./dist/gaphor*.whl'
     sources:
       - type: git
-        tag: 1.1.1
         url: https://github.com/gaphor/gaphor
-        commit: 60a3caa96d5e8b5302a39bfc4deba22d54d2f1ff
+        commit: aac3e76053879381d24199950cb156bc01646aa3
 
     post-install:
       - install -Dm644 flatpak/org.gaphor.Gaphor.appdata.xml /app/share/metainfo/org.gaphor.Gaphor.appdata.xml
       - install -Dm644 flatpak/org.gaphor.Gaphor.desktop /app/share/applications/org.gaphor.Gaphor.desktop
-      - install -Dm644 gaphor/ui/pixmaps/gaphor-24x24.png /app/share/icons/hicolor/24x24/apps/gaphor.png
-      - install -Dm644 gaphor/ui/pixmaps/gaphor-48x48.png /app/share/icons/hicolor/48x48/apps/gaphor.png
-      - install -Dm644 gaphor/ui/pixmaps/gaphor-96x96.png /app/share/icons/hicolor/96x96/apps/gaphor.png
-      - install -Dm644 gaphor/ui/pixmaps/gaphor-256x256.png /app/share/icons/hicolor/256x256/apps/gaphor.png
-      - install -Dm644 iconsrc/gaphor.svg /app/share/icons/hicolor/scalable/apps/gaphor.svg
+      - install -Dm644 logos/gaphor-24x24.png /app/share/icons/hicolor/24x24/apps/gaphor.png
+      - install -Dm644 logos/gaphor-48x48.png /app/share/icons/hicolor/48x48/apps/gaphor.png
+      - install -Dm644 logos/gaphor-96x96.png /app/share/icons/hicolor/96x96/apps/gaphor.png
+      - install -Dm644 logos/gaphor-256x256.png /app/share/icons/hicolor/256x256/apps/gaphor.png
+      - install -Dm644 logos/gaphor.svg /app/share/icons/hicolor/scalable/apps/gaphor.svg
