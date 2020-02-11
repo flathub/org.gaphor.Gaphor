@@ -1,37 +1,55 @@
-BUILD_DEPENDS := poetry setuptools
+#
+# To update the version, run:
+#
+#    make update VERSION=a.b.c
+#
 
 ID := org.gaphor.Gaphor
+# Do not change version by hand!
+VERSION := 1.1.1
 
 BUILD := build
 DIST := dist
 REPO := $(BUILD)/repo
 
-all: $(REPO) dist-flatpaks
+all: dist
 
-install: $(BUILD)/$(ID).flatpak
-	flatpak install --reinstall --assumeyes $(BUILD)/$(ID).flatpak
+dist: $(DIST)/$(ID).flatpak
 
-$(BUILD)/$(ID).flatpak: $(REPO)
+update: clean version appdata
+	$(MAKE) clean all
+
+version:
+	sed -i 's/^VERSION .*$/VERSION := $(VERSION)/' Makefile
+
+appdata:
+	sed -i '/  <releases>/a \ \ \ \ <release version="$(VERSION)" date="$(shell date +%Y-%m-%d)"/>' share/org.gaphor.Gaphor.appdata.xml
+
+gaphor-bin.yaml:
+	bash depends.sh ${VERSION} > gaphor-bin.yaml
+
+$(DIST)/$(ID).flatpak: $(REPO)
+	mkdir -p dist
 	flatpak build-bundle $(REPO) $@ $(ID)
 
-$(REPO): build-depends.yaml lockfile-depends.yaml org.gaphor.Gaphor.yaml
+$(REPO): gaphor-bin.yaml org.gaphor.Gaphor.yaml
 	flatpak-builder --force-clean --repo=$@ $(BUILD)/build $(ID).yaml
 	flatpak build-update-repo $(REPO)
-
-$(DIST):
-	mkdir -p $(DIST)
-
-$(DIST)/%.flatpak: $(BUILD)/%.flatpak $(DIST)
-	cp $< $@
 
 dist-flatpaks: $(DIST)/$(ID).flatpak
 
 clean:
+	rm gaphor-bin.yaml
 	rm -rf $(BUILD)
 	rm -rf $(DIST)
 	rm -rf .flatpak-builder
+
+# for local testing:
 
 setup:
 	flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 	flatpak install flathub org.gnome.Sdk//3.34
 	flatpak install flathub org.gnome.Platform//3.34
+
+install: $(DIST)/$(ID).flatpak
+	flatpak install --reinstall $(DIST)/$(ID).flatpak
