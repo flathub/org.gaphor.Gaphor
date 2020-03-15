@@ -1,0 +1,29 @@
+name: gaphor-bin
+buildsystem: simple
+build-commands:
+  - pip3 install --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} gaphor
+sources:
+  - type: file
+    url: https://files.pythonhosted.org/packages/90/52/e20466b85000a181e1e144fd8305caf2cf475e2f9674e797b222f8105f5f/future-0.17.1.tar.gz
+    sha256: 67045236dcfd6816dc439556d009594abf643e5eb48992e36beac09c2ca659b8
+  - type: file
+    url: https://files.pythonhosted.org/packages/dc/4b/9e7a40476e159b47f68db858dadee5b62462d72f92cf052be6204e46f6a4/gaphas-1.1.2-py2.py3-none-any.whl
+    sha256: 11d248941b3bd9890323a61c438f1945839bb3cd91bffa3583d4179091cfc8bd
+  - type: file
+    url: https://files.pythonhosted.org/packages/13/f0/5a88594cd4bd2a55fa607e772eba3aaa03152737503c380eac433fec8261/gaphor-1.1.0-py3-none-any.whl
+    sha256: 4d8a671c4deeb0eef8aafcadbef68c09cd5397135e277f550bcaa481f5549691
+  - type: file
+    url: https://files.pythonhosted.org/packages/0f/17/e1286017aae5d9bad07e84993748f57260afe4b69c6b480c4b2bd3e12d3a/gaphor-1.1.1-py3-none-any.whl
+    sha256: bdc61fc21e9c1e0a3a836d2a12f995bd0d3bc5ff76564582433f6166e1b92ffe
+  - type: file
+    url: https://files.pythonhosted.org/packages/f6/d2/40b3fa882147719744e6aa50ac39cf7a22a913cbcba86a0371176c425a3b/importlib_metadata-0.23-py2.py3-none-any.whl
+    sha256: d5f18a79777f3aa179c145737780282e27b508fc8fd688cb17c7a813e8bd39af
+  - type: file
+    url: https://files.pythonhosted.org/packages/25/95/ac361f06789c7dad19c37f4d7043df9275f416dffcdc44e22c3befeb7b08/pycairo-1.19.0.tar.gz
+    sha256: 4f5ba9374a46c98729dd3727d993f5e17ed0286fd6738ed464fe4efa0612d19c
+  - type: file
+    url: https://files.pythonhosted.org/packages/46/8a/b183f3edc812d4d28c8b671a922b5bc2863be5d38c56b3ad9155815e78dd/PyGObject-3.34.0.tar.gz
+    sha256: 2acb0daf2b3a23a90f52066cc23d1053339fee2f5f7f4275f8baa3704ae0c543
+  - type: file
+    url: https://files.pythonhosted.org/packages/46/42/f2dd964b2a6b1921b08d661138148c1bcd3f038462a44019416f2342b618/zipp-2.2.0-py36-none-any.whl
+    sha256: d65287feb793213ffe11c0f31b81602be31448f38aeb8ffc2eb286c4f6f6657e
