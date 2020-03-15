@@ -6,7 +6,7 @@
 
 ID := org.gaphor.Gaphor
 # Do not change version by hand!
-VERSION := 1.1.1
+VERSION := 1.2.0
 
 BUILD := build
 DIST := dist
