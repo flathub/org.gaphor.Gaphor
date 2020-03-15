@@ -6,7 +6,7 @@
 
 ID := org.gaphor.Gaphor
 # Do not change version by hand!
-VERSION := 1.1.1
+VERSION := 1.2.0
 
 BUILD := build
 DIST := dist
@@ -20,7 +20,7 @@ update: clean version appdata
 	$(MAKE) clean all
 
 version:
-	sed -i 's/^VERSION .*$/VERSION := $(VERSION)/' Makefile
+	sed -i "s/^VERSION .*/VERSION := ${VERSION}/" Makefile
 
 appdata:
 	sed -i '/  <releases>/a \ \ \ \ <release version="$(VERSION)" date="$(shell date +%Y-%m-%d)"/>' share/org.gaphor.Gaphor.appdata.xml
@@ -39,7 +39,7 @@ $(REPO): gaphor-bin.yaml org.gaphor.Gaphor.yaml
 dist-flatpaks: $(DIST)/$(ID).flatpak
 
 clean:
-	rm gaphor-bin.yaml
+	rm -f gaphor-bin.yaml
 	rm -rf $(BUILD)
 	rm -rf $(DIST)
 	rm -rf .flatpak-builder
