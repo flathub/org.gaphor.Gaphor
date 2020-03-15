@@ -20,7 +20,7 @@ update: clean version appdata
 	$(MAKE) clean all
 
 version:
-	sed -i 's/^VERSION .*$/VERSION := $(VERSION)/' Makefile
+	sed -i "s/^VERSION .*/VERSION := ${VERSION}/" Makefile
 
 appdata:
 	sed -i '/  <releases>/a \ \ \ \ <release version="$(VERSION)" date="$(shell date +%Y-%m-%d)"/>' share/org.gaphor.Gaphor.appdata.xml
