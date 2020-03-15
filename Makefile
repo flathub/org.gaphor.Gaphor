@@ -39,7 +39,7 @@ $(REPO): gaphor-bin.yaml org.gaphor.Gaphor.yaml
 dist-flatpaks: $(DIST)/$(ID).flatpak
 
 clean:
-	rm gaphor-bin.yaml
+	rm -f gaphor-bin.yaml
 	rm -rf $(BUILD)
 	rm -rf $(DIST)
 	rm -rf .flatpak-builder
