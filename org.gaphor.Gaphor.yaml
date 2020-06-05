@@ -32,7 +32,7 @@ modules:
       - type: file
         path: logos/gaphor-256x256.png
       - type: file
-        path: logos/gaphor.svg
+        path: logos/org.gaphor.Gaphor.svg
     build-commands:
       - install -Dm644 org.gaphor.Gaphor.appdata.xml /app/share/metainfo/org.gaphor.Gaphor.appdata.xml
       - install -Dm644 org.gaphor.Gaphor.desktop /app/share/applications/org.gaphor.Gaphor.desktop
@@ -41,4 +41,4 @@ modules:
       - install -Dm644 gaphor-48x48.png /app/share/icons/hicolor/48x48/apps/org.gaphor.Gaphor.png
       - install -Dm644 gaphor-96x96.png /app/share/icons/hicolor/96x96/apps/org.gaphor.Gaphor.png
       - install -Dm644 gaphor-256x256.png /app/share/icons/hicolor/256x256/apps/org.gaphor.Gaphor.png
-      - install -Dm644 gaphor.svg /app/share/icons/hicolor/scalable/apps/org.gaphor.Gaphor.svg
+      - install -Dm644 org.gaphor.Gaphor.svg /app/share/icons/hicolor/scalable/apps/org.gaphor.Gaphor.svg
