@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=Gaphor
 Comment=The simple modeling tool
-Comment[nl]=UML modelleer omgeving
-Comment[pl]=Środowisko modelowania UML
+Comment[nl]=De eenvoudige modelleertool
+Comment[pl]=Proste narzędzie do modelowania
 Exec=gaphor %f
 Icon=org.gaphor.Gaphor
 Terminal=false
