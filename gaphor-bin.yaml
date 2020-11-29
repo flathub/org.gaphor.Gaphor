@@ -9,8 +9,8 @@ sources:
     url: https://files.pythonhosted.org/packages/ea/39/63b1ee46ffeed714eebf1cc2586b8c5af6a4aa8250ff390fb9c4d5f27331/gaphas-2.1.2-py3-none-any.whl
     sha256: 8614233101867319e98adf261101d7069d3730b9b0b6c1b38deaea7d9e7e1358
   - type: file
-    url: https://files.pythonhosted.org/packages/fe/94/ddd60fcb21fc8881aa29af0cefc3ef62f08f20fa9ace247f085a2cf47e40/gaphor-2.0.1-py3-none-any.whl
-    sha256: e78145643cd1b67d4eebbbeb3ad2f28e525223e9d7be162edbae3f449cbe35ca
+    url: https://files.pythonhosted.org/packages/37/d9/eeae9a58465ab924a92a1d908cba56c873feca4058b9a60c29e77e20b7b1/gaphor-2.1.0-py3-none-any.whl
+    sha256: 4141f916c03ce96cb3371a35e5b5d30afacec9a4222302468505d10ea18a551f
   - type: file
     url: https://files.pythonhosted.org/packages/b5/76/0a9388e6dde0b00202da3585ff7441bddb9b39a3435486742ab5e4609a6e/generic-1.0.0-py3-none-any.whl
     sha256: a8dbb3133929223149272fcc70a95967cf3b24e3fa12601f91c67fb61efe29d4
@@ -24,11 +24,8 @@ sources:
     url: https://files.pythonhosted.org/packages/3a/a7/de282a4aaedba59d60a895a7821e6497b39cbdfa94a352776ff45ffc6e6f/PyGObject-3.38.0.tar.gz
     sha256: 051b950f509f2e9f125add96c1493bde987c527f7a0c15a1f7b69d6d1c3cd8e6
   - type: file
-    url: https://files.pythonhosted.org/packages/6d/38/c21ef5034684ffc0412deefbb07d66678332290c14bb5269c85145fbd55e/setuptools-50.3.2-py3-none-any.whl
-    sha256: 2c242a0856fbad7efbe560df4a7add9324f340cf48df43651e9604924466794a
-  - type: file
-    url: https://files.pythonhosted.org/packages/94/2c/4e501f9c351343c8ba10d70b5a7ca97cdab2690af043a6e52ada65b85b6b/tinycss2-1.0.2-py3-none-any.whl
-    sha256: 9fdacc0e22d344ddd2ca053837c133900fe820ae1222f63b79617490a498507a
+    url: https://files.pythonhosted.org/packages/65/f7/63bf697a7c7257d304269b49f1be3dfe429856889e93963d6f5790d77d82/tinycss2-1.1.0-py3-none-any.whl
+    sha256: 0353b5234bcaee7b1ac7ca3dea7e02cd338a9f8dcbb8f2dcd32a5795ec1e5f9a
   - type: file
     url: https://files.pythonhosted.org/packages/60/7a/e881b5abb54db0e6e671ab088d079c57ce54e8a01a3ca443f561ccadb37e/typing_extensions-3.7.4.3-py3-none-any.whl
     sha256: 7cb407020f00f7bfc3cb3e7881628838e69d8f3fcab2f64742a5e76b2f841918
@@ -36,5 +33,5 @@ sources:
     url: https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
     sha256: a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78
   - type: file
-    url: https://files.pythonhosted.org/packages/92/01/d39a8a821b1f9fcd88e6f4981a06143914805525b4608fb9660e2c498f7d/zipp-3.3.2-py3-none-any.whl
-    sha256: 50a4ef266c31c9409627b46012e206382eb8d23f46fbd358065a8335cfbf7d8f
+    url: https://files.pythonhosted.org/packages/41/ad/6a4f1a124b325618a7fb758b885b68ff7b058eec47d9220a12ab38d90b1f/zipp-3.4.0-py3-none-any.whl
+    sha256: 102c24ef8f171fd729d46599845e95c7ab894a4cf45f5de11a44cc7444fb1108
