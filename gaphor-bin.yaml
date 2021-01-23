@@ -6,17 +6,17 @@ cleanup:
   - /share/man
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/ea/39/63b1ee46ffeed714eebf1cc2586b8c5af6a4aa8250ff390fb9c4d5f27331/gaphas-2.1.2-py3-none-any.whl
-    sha256: 8614233101867319e98adf261101d7069d3730b9b0b6c1b38deaea7d9e7e1358
+    url: https://files.pythonhosted.org/packages/39/ee/b083407dbddb644153fe1b94067d008d3b75b136735d744b732f2ac133bc/gaphas-3.0.0-py3-none-any.whl
+    sha256: ef7a59130ecd48fbef38916e0466768d6647aaf88ff59d61a626c5834b0205b5
   - type: file
-    url: https://files.pythonhosted.org/packages/85/d9/1772b9f2f0217b441f40b0e400c1d847069d83bfedf27f88f8bf834e6af3/gaphor-2.1.1-py3-none-any.whl
-    sha256: d56fdc6c0cba524eb35320ffd66ac8173d2205b571cf8b95ec16590e90cfb35b
+    url: https://files.pythonhosted.org/packages/5a/ce/c53cdd3699e6e8c60396fabbc018f96b262601f6274c07c5be1929e85802/gaphor-2.2.0-py3-none-any.whl
+    sha256: 845e8e76bf52fc31aeeee8e66ecf12ac65018ad06deb82d8e639c50a8d787a5c
   - type: file
     url: https://files.pythonhosted.org/packages/b5/76/0a9388e6dde0b00202da3585ff7441bddb9b39a3435486742ab5e4609a6e/generic-1.0.0-py3-none-any.whl
     sha256: a8dbb3133929223149272fcc70a95967cf3b24e3fa12601f91c67fb61efe29d4
   - type: file
-    url: https://files.pythonhosted.org/packages/8e/58/cdea07eb51fc2b906db0968a94700866fc46249bdc75cac23f9d13168929/importlib_metadata-1.7.0-py2.py3-none-any.whl
-    sha256: dc15b2969b4ce36305c51eebe62d418ac7791e9a157911d58bfb1f9ccd8e2070
+    url: https://files.pythonhosted.org/packages/f3/ed/da40116a204abb5c4dd1d929346d33e0d29cedb2cedd18ea98f0385dcd92/importlib_metadata-3.4.0-py3-none-any.whl
+    sha256: ace61d5fc652dc280e7b6b4ff732a9c2d40db2c0f92bc6cb74e07b73d53a1771
   - type: file
     url: https://files.pythonhosted.org/packages/9d/6e/499d6a6db416eb3cdf0e57762a269908e4ab6638a75a90972afc34885b91/pycairo-1.20.0.tar.gz
     sha256: 5695a10cb7f9ae0d01f665b56602a845b0a8cb17e2123bfece10c2e58552468c
