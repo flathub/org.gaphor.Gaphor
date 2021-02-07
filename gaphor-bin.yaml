@@ -9,8 +9,8 @@ sources:
     url: https://files.pythonhosted.org/packages/39/ee/b083407dbddb644153fe1b94067d008d3b75b136735d744b732f2ac133bc/gaphas-3.0.0-py3-none-any.whl
     sha256: ef7a59130ecd48fbef38916e0466768d6647aaf88ff59d61a626c5834b0205b5
   - type: file
-    url: https://files.pythonhosted.org/packages/71/22/f4d5e17add4a1536375151264c5e015d8e47f3f8452c4ca26804bb889652/gaphor-2.2.1-py3-none-any.whl
-    sha256: d686a66f21e1ca980f24363e2c1b114d1e741334e393a08a5d59735d56cfb129
+    url: https://files.pythonhosted.org/packages/e8/5c/6404472905dfb9713919e31030181d0f7b05647f10bccab1eddf1b636cff/gaphor-2.2.2-py3-none-any.whl
+    sha256: 323c4235ae47744e1c4f4efc28ba955e2d34aa79e74fced5e4fd3c598a058d77
   - type: file
     url: https://files.pythonhosted.org/packages/b5/76/0a9388e6dde0b00202da3585ff7441bddb9b39a3435486742ab5e4609a6e/generic-1.0.0-py3-none-any.whl
     sha256: a8dbb3133929223149272fcc70a95967cf3b24e3fa12601f91c67fb61efe29d4
