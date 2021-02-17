@@ -16,6 +16,18 @@
       <caption>The Gaphor main window</caption>
       <image type="source">https://gaphor.org/images/screenshot.png</image>
     </screenshot>
+    <screenshot>
+      <caption>Sequence diagram</caption>
+      <image type="source">https://gaphor.org/images/screenshot-interaction.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Customizable styling</caption>
+      <image type="source">https://gaphor.org/images/screenshot-styling.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Dark mode</caption>
+      <image type="source">https://gaphor.org/images/screenshot-dark-mode.png</image>
+    </screenshot>
   </screenshots>
   <url type="homepage">https://gaphor.org</url>
   <url type="help">https://gaphor.readthedocs.io</url>
