@@ -22,7 +22,7 @@
     </screenshot>
     <screenshot>
       <caption>Customizable styling</caption>
-      <image type="source">https://gaphor.org/images/screenshot-styling.png</image>
+      <image type="source">https://gaphor.org/images/screenshot-styles.png</image>
     </screenshot>
     <screenshot>
       <caption>Dark mode</caption>
@@ -37,6 +37,7 @@
     </p>
   </description>
   <releases>
+    <release version="2.3.0" date="2021-03-20"/>
     <release version="2.2.2" date="2021-02-07"/>
     <release version="2.2.1" date="2021-01-26"/>
     <release version="2.2.0" date="2021-01-23"/>
