@@ -3,7 +3,7 @@
   <id>org.gaphor.Gaphor</id>
   <launchable type="desktop-id">org.gaphor.Gaphor.desktop</launchable>
   <name>Gaphor</name>
-  <summary>Simple modeling tool</summary>
+  <summary>Simple UML and SysML modeling tool</summary>
   <metadata_license>CC-BY-3.0</metadata_license>
   <project_license>Apache-2.0</project_license>
   <developer_name>Arjan J. Molenaar</developer_name>
@@ -32,8 +32,11 @@
   <url type="homepage">https://gaphor.org</url>
   <url type="help">https://gaphor.readthedocs.io</url>
   <description>
-    <p>Gaphor is a simple modeling tool written in Python. It is Free and Open Source software
-        for creating software and system architecture and designs. It is aimed at beginning modelers.
+    <p>Gaphor is a free GTK application written in Python aimed at UML and SysML modeling. It is designed to be easy to use, while still being powerful. 
+      Gaphor implements a fully-compliant UML 2 data model, and can be used to draw, design and visualize different aspects of a system as well as create highly complex models.
+    </p>
+    <p>
+      Gaphor provides four modeling languages: UML, SysML, RAAML and C4 and makes them accessible to beginners.
     </p>
   </description>
   <releases>
