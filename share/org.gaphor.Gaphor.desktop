@@ -10,4 +10,4 @@ Terminal=false
 Type=Application
 Categories=GTK;GNOME;Development;ProjectManagement;
 MimeType=application/x-gaphor
-Keywords=UML,RAAML,C4,SysML,Design,Graph
+Keywords=UML;RAAML;C4;SysML;Design;Graph;
