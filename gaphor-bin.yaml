@@ -6,8 +6,8 @@ cleanup:
   - /share/man
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/f4/09/9f4fe45cf412a1b137a4b0b85d2bb34893a7c72eef258a56b665c692318a/gaphor-2.5.0-py3-none-any.whl
-    sha256: d3f883190781ffa0e28a0ffa67419b7b2d165ca5407e1dcb50ba3458f66015df
+    url: https://files.pythonhosted.org/packages/92/30/4db337169b30adf72d6030ecc630a7a606cdf303828e08e5d889ea45bbbc/gaphor-2.5.1-py3-none-any.whl
+    sha256: b03da4adedb111e80950aecc76c6a75c16ce1295e4518e46340403d70d00a3c1
   - type: file
     url: https://files.pythonhosted.org/packages/7b/13/37638e0eab60ad5e62ab983828195e46b210d4c9acbf3c5672ab1efbdd6e/gaphas-3.1.4-py3-none-any.whl
     sha256: 41eee9713c99bf1406b1866204e10849d25a580031bce188c6ad9d25a473eaa4
@@ -15,8 +15,8 @@ sources:
     url: https://files.pythonhosted.org/packages/b5/76/0a9388e6dde0b00202da3585ff7441bddb9b39a3435486742ab5e4609a6e/generic-1.0.0-py3-none-any.whl
     sha256: a8dbb3133929223149272fcc70a95967cf3b24e3fa12601f91c67fb61efe29d4
   - type: file
-    url: https://files.pythonhosted.org/packages/de/25/37646ca4b30781793b71d8282ed44c11cd506d42a0e985238d4f35218169/importlib_metadata-4.6.0-py3-none-any.whl
-    sha256: c6513572926a96458f8c8f725bf0e00108fba0c9583ade9bd15b869c9d726e33
+    url: https://files.pythonhosted.org/packages/3f/e1/e5bba549a033adf77448699a34ecafc7a32adaeeb4369396b35f56d5cc3e/importlib_metadata-4.6.1-py3-none-any.whl
+    sha256: 9f55f560e116f8643ecf2922d9cd3e1c7e8d52e683178fecd9d08f6aa357e11e
   - type: file
     url: https://files.pythonhosted.org/packages/bc/3f/64e6e066d163fbcf13213f9eeda0fc83376243335ea46a66cefd70d62e8f/pycairo-1.20.1.tar.gz
     sha256: 1ee72b035b21a475e1ed648e26541b04e5d7e753d75ca79de8c583b25785531b
@@ -33,5 +33,5 @@ sources:
     url: https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
     sha256: a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78
   - type: file
-    url: https://files.pythonhosted.org/packages/0f/8c/715c54e9e34c0c4820f616a913a7de3337d0cd79074dd1bed4dd840f16ae/zipp-3.4.1-py3-none-any.whl
-    sha256: 51cb66cc54621609dd593d1787f286ee42a5c0adbb4b29abea5a63edc3e03098
+    url: https://files.pythonhosted.org/packages/92/d9/89f433969fb8dc5b9cbdd4b4deb587720ec1aeb59a020cf15002b9593eef/zipp-3.5.0-py3-none-any.whl
+    sha256: 957cfda87797e389580cb8b9e3870841ca991e2125350677b2ca83a0e99390a3
