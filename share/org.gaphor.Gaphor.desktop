@@ -1,9 +1,10 @@
 [Desktop Entry]
 Name=Gaphor
 Comment=The simple modeling tool
+Comment[fr]=L'outil de modélisation facile
+Comment[hu]=Egyszerű modellező eszköz
 Comment[nl]=De eenvoudige modelleertool
 Comment[pl]=Proste narzędzie do modelowania
-Comment[fr]=L'outil de modélisation facile
 Exec=gaphor %f
 Icon=org.gaphor.Gaphor
 Terminal=false
