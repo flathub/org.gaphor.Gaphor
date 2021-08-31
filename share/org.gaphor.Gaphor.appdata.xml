@@ -30,7 +30,10 @@
     </screenshot>
   </screenshots>
   <url type="homepage">https://gaphor.org</url>
+  <url type="bugtracker">https://github.com/gaphor/gaphor/issues</url>
   <url type="help">https://gaphor.readthedocs.io</url>
+  <url type="donation">https://github.com/sponsors/danyeaw</url>
+  <url type="translate">https://hosted.weblate.org/projects/gaphor/gaphor</url>
   <description>
     <p>Gaphor is a free GTK application written in Python aimed at UML and SysML modeling. It is designed to be easy to use, while still being powerful. 
       Gaphor implements a fully-compliant UML 2 data model, and can be used to draw, design and visualize different aspects of a system as well as create highly complex models.
