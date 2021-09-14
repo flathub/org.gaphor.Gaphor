@@ -6,7 +6,7 @@
 
 ID := org.gaphor.Gaphor
 # Do not change version by hand!
-VERSION := 2.5.1
+VERSION := 2.6.0
 
 BUILD := build
 DIST := dist
@@ -48,8 +48,8 @@ clean:
 
 setup:
 	flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-	flatpak install flathub org.gnome.Sdk//3.34
-	flatpak install flathub org.gnome.Platform//3.34
+	flatpak install flathub org.gnome.Sdk//40
+	flatpak install flathub org.gnome.Platform//40
 
 install: $(DIST)/$(ID).flatpak
 	flatpak install --reinstall $(DIST)/$(ID).flatpak
