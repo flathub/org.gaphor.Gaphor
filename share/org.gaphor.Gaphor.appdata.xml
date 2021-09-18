@@ -35,11 +35,16 @@
   <url type="donation">https://github.com/sponsors/danyeaw</url>
   <url type="translate">https://hosted.weblate.org/projects/gaphor/gaphor</url>
   <description>
-    <p>Gaphor is a free GTK application written in Python aimed at UML and SysML modeling. It is designed to be easy to use, while still being powerful. 
-      Gaphor implements a fully-compliant UML 2 data model, and can be used to draw, design and visualize different aspects of a system as well as create highly complex models.
+    <p>
+      Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is
+      designed to be easy to use, while still being powerful. Gaphor implements
+      a fully-compliant UML 2 data model, so it is much more than a picture
+      drawing tool. You can use Gaphor to quickly visualize different aspects
+      of a system as well as create complete, highly complex models.
     </p>
     <p>
-      Gaphor provides four modeling languages: UML, SysML, RAAML and C4 and makes them accessible to beginners.
+      Gaphor provides four modeling languages: UML, SysML, RAAML and C4 and
+      makes them accessible to beginners.
     </p>
   </description>
   <releases>
