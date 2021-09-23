@@ -4,6 +4,7 @@
   <launchable type="desktop-id">org.gaphor.Gaphor.desktop</launchable>
   <name>Gaphor</name>
   <summary>Simple UML and SysML modeling tool</summary>
+  <summary xml:lang="hr">Jednostavan alat za UML i SysML modeliranje</summary>
   <metadata_license>CC-BY-3.0</metadata_license>
   <project_license>Apache-2.0</project_license>
   <developer_name>Arjan J. Molenaar</developer_name>
@@ -45,6 +46,18 @@
     <p>
       Gaphor provides four modeling languages: UML, SysML, RAAML and C4 and
       makes them accessible to beginners.
+    </p>
+
+    <p xml:lang="hr">
+      Gaphor je program za UML, SysML, RAAML i C4 modeliranje. Jednostavan u
+      upotrebi, a istovremeno moćan alat. Gaphor implementira potpuno usklađen
+      UML 2 model podataka, stoga je on puno više od običnog alata za crtanje
+      slika. Gaphor se može koristiti za brzu vizualizaciju različitih aspekata
+      nekog sustava, kao i za stvaranje cjelovitih i vrlo složenih modela.
+    </p>
+    <p xml:lang="hr">
+      Gaphor nudi četiri jezika za modeliranje: UML, SysML, RAAML i C4 te
+      omogućuje pristup početnicima.
     </p>
   </description>
   <releases>
