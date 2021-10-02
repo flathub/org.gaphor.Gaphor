@@ -6,8 +6,8 @@ cleanup:
   - /share/man
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/c2/11/826eed2c85e1a2e58a32e2eafc431158ed7bae846ba3ff2da4565eb9a1d4/gaphor-2.6.1-py3-none-any.whl
-    sha256: 4da26ba7f22c4b0628bef4bf4c69145944601dfb91767c561c9a524721ffcb13
+    url: https://files.pythonhosted.org/packages/56/2e/6d4ae4b4c64be1348981dcd65088ed763e7d3486d5b254cc6bcd1d41845a/gaphor-2.6.2-py3-none-any.whl
+    sha256: 58b69a78a96caf03ee7fc784742e64aa28fdb468e4fba8e7711b2bf5ac3afe7d
   - type: file
     url: https://files.pythonhosted.org/packages/70/5a/2e56a0c4949f1203eef7ae0ab673db8a315b63cc51bf688ca38dff9d916f/gaphas-3.1.9-py3-none-any.whl
     sha256: 600a5d16698110365ffd818baae8b26842bc679871d31005053cb3da33f3327d
@@ -33,5 +33,5 @@ sources:
     url: https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
     sha256: a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78
   - type: file
-    url: https://files.pythonhosted.org/packages/92/d9/89f433969fb8dc5b9cbdd4b4deb587720ec1aeb59a020cf15002b9593eef/zipp-3.5.0-py3-none-any.whl
-    sha256: 957cfda87797e389580cb8b9e3870841ca991e2125350677b2ca83a0e99390a3
+    url: https://files.pythonhosted.org/packages/bd/df/d4a4974a3e3957fd1c1fa3082366d7fff6e428ddb55f074bf64876f8e8ad/zipp-3.6.0-py3-none-any.whl
+    sha256: 9fe5ea21568a0a70e50f273397638d39b03353731e6cbbb3fd8502a33fec40bc
