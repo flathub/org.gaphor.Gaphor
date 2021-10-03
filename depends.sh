@@ -7,7 +7,7 @@ GAPHOR_VERSION=${1}
 BUILD=build/pip
 
 mkdir -p ${BUILD}
-pip3 download -q --dest ${BUILD}  gaphor=="${GAPHOR_VERSION}"
+pip3 download -q --dest ${BUILD}  gaphor=="${GAPHOR_VERSION}" setuptools wheel
 
 cat << EOF
 name: gaphor-bin
