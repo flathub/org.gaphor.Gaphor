@@ -6,8 +6,8 @@ cleanup:
   - /share/man
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/42/21/e35e9ab06ddae5e3f34e3df74c1ac4eb191b3404e8a4e3e17c80200b1e47/gaphor-2.6.4-py3-none-any.whl
-    sha256: af1f562bdaefd7c0e801c7a81d4f13a8e2c906178a5d6e44c20585fba50df457
+    url: https://files.pythonhosted.org/packages/f4/4c/ea4eabccc49e772c3c48d7b93e2c64487cf135a7909ebedf77aced546fe3/gaphor-2.6.5-py3-none-any.whl
+    sha256: b930a1fc8171094f904def3f0047f3cc87de103a3007a207bb18ca660a9638c4
   - type: file
     url: https://files.pythonhosted.org/packages/70/5a/2e56a0c4949f1203eef7ae0ab673db8a315b63cc51bf688ca38dff9d916f/gaphas-3.1.9-py3-none-any.whl
     sha256: 600a5d16698110365ffd818baae8b26842bc679871d31005053cb3da33f3327d
