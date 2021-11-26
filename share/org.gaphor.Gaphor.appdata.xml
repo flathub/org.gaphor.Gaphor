@@ -5,6 +5,7 @@
   <name>Gaphor</name>
   <summary>Simple UML and SysML modeling tool</summary>
   <summary xml:lang="hr">Jednostavan alat za UML i SysML modeliranje</summary>
+  <summary xml:lang="hu">Egyszerű UML és SysML modellező eszköz</summary>
   <metadata_license>CC-BY-3.0</metadata_license>
   <project_license>Apache-2.0</project_license>
   <developer_name>Arjan J. Molenaar</developer_name>
@@ -15,18 +16,22 @@
   <screenshots>
     <screenshot type="default">
       <caption>The Gaphor main window</caption>
+      <caption xml:lang="hu">A Gaphor főablak</caption>
       <image type="source">https://gaphor.org/images/screenshot.png</image>
     </screenshot>
     <screenshot>
       <caption>Sequence diagram</caption>
+      <caption xml:lang="hu">Sorozat ábra</caption>
       <image type="source">https://gaphor.org/images/screenshot-interaction.png</image>
     </screenshot>
     <screenshot>
       <caption>Customizable styling</caption>
+      <caption xml:lang="hu">Testreszabható stílus</caption>
       <image type="source">https://gaphor.org/images/screenshot-styles.png</image>
     </screenshot>
     <screenshot>
       <caption>Dark mode</caption>
+      <caption xml:lang="hu">Sötét üzemmód</caption>
       <image type="source">https://gaphor.org/images/screenshot-dark-mode.png</image>
     </screenshot>
   </screenshots>
@@ -59,6 +64,20 @@
       Gaphor nudi četiri jezika za modeliranje: UML, SysML, RAAML i C4 te
       omogućuje pristup početnicima.
     </p>
+
+    <p xml:lang="hu">
+      A Gaphor egy UML, SysML, RAAML és C4 modellező alkalmazás. Úgy tervezték, 
+      hogy könnyen használható legyen, ugyanakkor erős legyen. A Gaphor egy 
+      teljesen kompatibilis UML 2 adatmodellt valósít meg, tehát sokkal több, 
+      mint egy képrajzoló eszköz. A Gaphor segítségével gyorsan megjelenítheti 
+      a rendszer különböző aspektusait, valamint komplett, rendkívül összetett 
+      modelleket hozhat létre. 
+    </p>
+    <p xml:lang="hu">
+      A Gaphor négy modellezési nyelvet kínál: UML, SysML, RAAML és C4, és 
+      elérhetővé teszi a kezdők számára. 
+    </p>
+
   </description>
   <releases>
     <release version="2.6.5" date="2021-10-18"/>
