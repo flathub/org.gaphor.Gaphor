@@ -7,13 +7,30 @@ Flathub is the central place for building and hosting Flatpak builds.
 To install Gaphor, use the following:
 
 ```
-flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub org.gaphor.Gaphor
+flatpak remote-add flathub --user --if-not-exists https://flathub.org/repo/flathub.flatpakrepo
+flatpak install --user flathub org.gaphor.Gaphor
 ```
 
 For more information and more applications see https://flathub.org.
 
 ## For maintainers
+
+### Install Dependencies
+
+Ubuntu:
+`sudo apt-get install --no-install-recommends jq flatpak-builder`
+
+openSUSE:
+`sudo zypper in --no-recommends jq flatpak-builder`
+
+Flatpak dependencies: 
+
+```
+flatpak remote-add flathub --user --if-not-exists https://flathub.org/repo/flathub.flatpakrepo
+flatpak install --user flathub org.gnome.Sdk/x86_64/41
+```
+
+### Build a New Version
 
 To make a new version run `make update VERSION=a.b.c`.
 
