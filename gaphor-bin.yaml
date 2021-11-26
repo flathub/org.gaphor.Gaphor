@@ -6,14 +6,17 @@ cleanup:
   - /share/man
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/f4/4c/ea4eabccc49e772c3c48d7b93e2c64487cf135a7909ebedf77aced546fe3/gaphor-2.6.5-py3-none-any.whl
-    sha256: b930a1fc8171094f904def3f0047f3cc87de103a3007a207bb18ca660a9638c4
+    url: https://files.pythonhosted.org/packages/49/09/f490a0ed048ec218a711ba7cf45d33d469b64a85ebf6b78029a359dff265/gaphor-2.7.0-py3-none-any.whl
+    sha256: c727f58047380ad4a609f76b055ee9bcae3a8a29ade48a77c01d1b6b964d7a15
   - type: file
-    url: https://files.pythonhosted.org/packages/70/5a/2e56a0c4949f1203eef7ae0ab673db8a315b63cc51bf688ca38dff9d916f/gaphas-3.1.9-py3-none-any.whl
-    sha256: 600a5d16698110365ffd818baae8b26842bc679871d31005053cb3da33f3327d
+    url: https://files.pythonhosted.org/packages/45/de/598161d131adead2856ce4d3bb7fd9479bc3f33f5ac9bb50050fb96e15b3/gaphas-3.4.0-py3-none-any.whl
+    sha256: 08ac32a5aa495b63ae26921d7a39dd6e98f2d036894159a0eb637bcbea1fd47a
   - type: file
-    url: https://files.pythonhosted.org/packages/b5/76/0a9388e6dde0b00202da3585ff7441bddb9b39a3435486742ab5e4609a6e/generic-1.0.0-py3-none-any.whl
-    sha256: a8dbb3133929223149272fcc70a95967cf3b24e3fa12601f91c67fb61efe29d4
+    url: https://files.pythonhosted.org/packages/56/21/080d7681b55afc7c983636c3a1a52063fa0a323fab1b5a5e9646e51dfe3d/generic-1.0.1-py3-none-any.whl
+    sha256: e6be6d8490a2458c9f8e28e151c4f4a0687f40ac364da35578f7147b0220f264
+  - type: file
+    url: https://files.pythonhosted.org/packages/b3/0e/836f12ec50075161e365131f13f5758451645af75c2becf61c6351ecec39/jedi-0.18.1-py2.py3-none-any.whl
+    sha256: 637c9635fcf47945ceb91cd7f320234a7be540ded6f3e99a50cb6febdfd1ba8d
   - type: file
     url: https://files.pythonhosted.org/packages/bc/3f/64e6e066d163fbcf13213f9eeda0fc83376243335ea46a66cefd70d62e8f/pycairo-1.20.1.tar.gz
     sha256: 1ee72b035b21a475e1ed648e26541b04e5d7e753d75ca79de8c583b25785531b
@@ -21,11 +24,11 @@ sources:
     url: https://files.pythonhosted.org/packages/cc/72/48cfdd7a0caf3c27f392d2657731ac6f7c3c1c0a60bfeba3e1ba9ffa7ba9/PyGObject-3.42.0.tar.gz
     sha256: b9803991ec0b0b4175e81fee0ad46090fa7af438fe169348a9b18ae53447afcd
   - type: file
-    url: https://files.pythonhosted.org/packages/65/f7/63bf697a7c7257d304269b49f1be3dfe429856889e93963d6f5790d77d82/tinycss2-1.1.0-py3-none-any.whl
-    sha256: 0353b5234bcaee7b1ac7ca3dea7e02cd338a9f8dcbb8f2dcd32a5795ec1e5f9a
+    url: https://files.pythonhosted.org/packages/53/7b/5dba39bf0572f1f28e2844f08f74a73482a381de1d1feac3bbc6b808051e/tinycss2-1.1.1-py3-none-any.whl
+    sha256: fe794ceaadfe3cf3e686b22155d0da5780dd0e273471a51846d0a02bc204fec8
   - type: file
-    url: https://files.pythonhosted.org/packages/74/60/18783336cc7fcdd95dae91d73477830aa53f5d3181ae4fe20491d7fc3199/typing_extensions-3.10.0.2-py3-none-any.whl
-    sha256: f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34
+    url: https://files.pythonhosted.org/packages/a9/c4/d5476373088c120ffed82f34c74b266ccae31a68d665b837354d4d8dc8be/parso-0.8.2-py2.py3-none-any.whl
+    sha256: a8c4922db71e4fdb90e0d0bc6e50f9b273d3397925e5e60a717e719201778d22
   - type: file
     url: https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
     sha256: a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78
