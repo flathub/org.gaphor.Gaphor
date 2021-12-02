@@ -6,11 +6,11 @@ cleanup:
   - /share/man
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/49/09/f490a0ed048ec218a711ba7cf45d33d469b64a85ebf6b78029a359dff265/gaphor-2.7.0-py3-none-any.whl
-    sha256: c727f58047380ad4a609f76b055ee9bcae3a8a29ade48a77c01d1b6b964d7a15
+    url: https://files.pythonhosted.org/packages/96/4d/9e9f906683ed6a31d271b259ca8eabcfa4e928f9d9a2b6347977b73b4421/gaphor-2.7.1-py3-none-any.whl
+    sha256: fc61918df54d1aa5b0ae2399030dea737b8f2a8a2ff546cd8884ae744a1fbdf5
   - type: file
-    url: https://files.pythonhosted.org/packages/45/de/598161d131adead2856ce4d3bb7fd9479bc3f33f5ac9bb50050fb96e15b3/gaphas-3.4.0-py3-none-any.whl
-    sha256: 08ac32a5aa495b63ae26921d7a39dd6e98f2d036894159a0eb637bcbea1fd47a
+    url: https://files.pythonhosted.org/packages/57/a1/6c9fa7406b6b372697eddda3410d5089d44bf8fee419391e689626b811f3/gaphas-3.4.1-py3-none-any.whl
+    sha256: 15e5e8ae0765d3fd1a2987e69acc13583b7d9c7daa58c4f830a137648c0a6a9c
   - type: file
     url: https://files.pythonhosted.org/packages/56/21/080d7681b55afc7c983636c3a1a52063fa0a323fab1b5a5e9646e51dfe3d/generic-1.0.1-py3-none-any.whl
     sha256: e6be6d8490a2458c9f8e28e151c4f4a0687f40ac364da35578f7147b0220f264
@@ -27,8 +27,8 @@ sources:
     url: https://files.pythonhosted.org/packages/53/7b/5dba39bf0572f1f28e2844f08f74a73482a381de1d1feac3bbc6b808051e/tinycss2-1.1.1-py3-none-any.whl
     sha256: fe794ceaadfe3cf3e686b22155d0da5780dd0e273471a51846d0a02bc204fec8
   - type: file
-    url: https://files.pythonhosted.org/packages/a9/c4/d5476373088c120ffed82f34c74b266ccae31a68d665b837354d4d8dc8be/parso-0.8.2-py2.py3-none-any.whl
-    sha256: a8c4922db71e4fdb90e0d0bc6e50f9b273d3397925e5e60a717e719201778d22
+    url: https://files.pythonhosted.org/packages/05/63/8011bd08a4111858f79d2b09aad86638490d62fbf881c44e434a6dfca87b/parso-0.8.3-py2.py3-none-any.whl
+    sha256: c001d4636cd3aecdaf33cbb40aebb59b094be2a74c556778ef5576c175e19e75
   - type: file
     url: https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
     sha256: a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78
