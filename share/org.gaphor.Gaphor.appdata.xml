@@ -4,6 +4,7 @@
   <launchable type="desktop-id">org.gaphor.Gaphor.desktop</launchable>
   <name>Gaphor</name>
   <summary>Simple UML and SysML modeling tool</summary>
+  <summary xml:lang="es">Herramienta sencilla de modelado UML y SysML</summary>
   <summary xml:lang="hr">Jednostavan alat za UML i SysML modeliranje</summary>
   <summary xml:lang="hu">Egyszerű UML és SysML modellező eszköz</summary>
   <metadata_license>CC-BY-3.0</metadata_license>
@@ -16,21 +17,25 @@
   <screenshots>
     <screenshot type="default">
       <caption>The Gaphor main window</caption>
+      <caption xml:lang="es">Ventana principal de Gaphor</caption>
       <caption xml:lang="hu">A Gaphor főablak</caption>
       <image type="source">https://gaphor.org/images/screenshot.png</image>
     </screenshot>
     <screenshot>
       <caption>Sequence diagram</caption>
+      <caption xml:lang="es">Diagrama de secuencia</caption>
       <caption xml:lang="hu">Sorozat ábra</caption>
       <image type="source">https://gaphor.org/images/screenshot-interaction.png</image>
     </screenshot>
     <screenshot>
       <caption>Customizable styling</caption>
+      <caption xml:lang="es">Estilo personalizable</caption>
       <caption xml:lang="hu">Testreszabható stílus</caption>
       <image type="source">https://gaphor.org/images/screenshot-styles.png</image>
     </screenshot>
     <screenshot>
       <caption>Dark mode</caption>
+      <caption xml:lang="es">Modo oscuro</caption>
       <caption xml:lang="hu">Sötét üzemmód</caption>
       <image type="source">https://gaphor.org/images/screenshot-dark-mode.png</image>
     </screenshot>
@@ -51,6 +56,19 @@
     <p>
       Gaphor provides four modeling languages: UML, SysML, RAAML and C4 and
       makes them accessible to beginners.
+    </p>
+
+    <p xml:lang="es">
+      Gaphor es una aplicación de modelado UML, SysML, RAAML y C4. Está
+      diseñado para ser fácil de usar, sin dejar de ser potente. Gaphor
+      implementa un modelo de datos UML 2 totalmente compatible, por lo
+      que es mucho más que una herramienta de dibujo. Puede usar Gaphor
+      para visualizar rápidamente diferentes aspectos de un sistema, así
+      como para crear modelos completos y muy complejos.
+    </p>
+    <p xml:lang="es">
+      Gaphor ofrece cuatro lenguajes de modelado: UML, SysML, RAAML y C4 y
+      los hace accesibles a los principiantes.
     </p>
 
     <p xml:lang="hr">
