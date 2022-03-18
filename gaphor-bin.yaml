@@ -6,11 +6,14 @@ cleanup:
   - /share/man
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/4d/1f/e57dbcec7829d93f4926f12d4365c3e7af4f6d0c10f8e09cecd3c5ed8f97/gaphor-2.8.2-py3-none-any.whl
-    sha256: be4658c1ae9f944600a0c106ff045827ad91d8c9166ebba953480bee1ee8c272
+    url: https://files.pythonhosted.org/packages/70/ed/e73756cebaf15f92864eaa53a01e95e20d1ae53bdfc6d8cb04e6367645c1/gaphor-2.9.1-py3-none-any.whl
+    sha256: 00ef81308f705ce52a0ae6069097089b2f91098eb20c4368f6481a63c6198d48
   - type: file
-    url: https://files.pythonhosted.org/packages/6f/c1/13a80eb404da2dd9b4de1b8798c7972bb00c24ddaf16c02addc09e60720c/gaphas-3.5.0-py3-none-any.whl
-    sha256: ba1a5c0119be82e26beb994ec56ec54fab99196e41873b437bcb948776b3d539
+    url: https://files.pythonhosted.org/packages/5f/05/c4c9eb08658e9596ffd6096092c12f71133798645d6314f98cbba1782dac/darkdetect-0.5.1-py3-none-any.whl
+    sha256: bd96c0239875e2b81c6e542a35299aab2b20c7290f97f7b01a206071908a12b3
+  - type: file
+    url: https://files.pythonhosted.org/packages/0d/3a/75f04aa47a67c4c7fb7e2d98032ad38768a9fc7cc92ab7568e2c1757fda2/gaphas-3.5.1-py3-none-any.whl
+    sha256: 7de4118383785698a6c7a97b2324f09c01b43fe51a5ad477feeb7f2115dc35d2
   - type: file
     url: https://files.pythonhosted.org/packages/56/21/080d7681b55afc7c983636c3a1a52063fa0a323fab1b5a5e9646e51dfe3d/generic-1.0.1-py3-none-any.whl
     sha256: e6be6d8490a2458c9f8e28e151c4f4a0687f40ac364da35578f7147b0220f264
@@ -18,8 +21,8 @@ sources:
     url: https://files.pythonhosted.org/packages/b3/0e/836f12ec50075161e365131f13f5758451645af75c2becf61c6351ecec39/jedi-0.18.1-py2.py3-none-any.whl
     sha256: 637c9635fcf47945ceb91cd7f320234a7be540ded6f3e99a50cb6febdfd1ba8d
   - type: file
-    url: https://files.pythonhosted.org/packages/bc/3f/64e6e066d163fbcf13213f9eeda0fc83376243335ea46a66cefd70d62e8f/pycairo-1.20.1.tar.gz
-    sha256: 1ee72b035b21a475e1ed648e26541b04e5d7e753d75ca79de8c583b25785531b
+    url: https://files.pythonhosted.org/packages/92/a4/506564f574fa74c90b98690e8ecc8dbae1629f31fcfe0be69de45d9e1605/pycairo-1.21.0.tar.gz
+    sha256: 251907f18a552df938aa3386657ff4b5a4937dde70e11aa042bc297957f4b74b
   - type: file
     url: https://files.pythonhosted.org/packages/cc/72/48cfdd7a0caf3c27f392d2657731ac6f7c3c1c0a60bfeba3e1ba9ffa7ba9/PyGObject-3.42.0.tar.gz
     sha256: b9803991ec0b0b4175e81fee0ad46090fa7af438fe169348a9b18ae53447afcd
