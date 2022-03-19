@@ -6,8 +6,8 @@ cleanup:
   - /share/man
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/70/ed/e73756cebaf15f92864eaa53a01e95e20d1ae53bdfc6d8cb04e6367645c1/gaphor-2.9.1-py3-none-any.whl
-    sha256: 00ef81308f705ce52a0ae6069097089b2f91098eb20c4368f6481a63c6198d48
+    url: https://files.pythonhosted.org/packages/59/e5/14c7d0a9569cbda5aabe3ad8ebec34d27391ceed37f4763e45d07df969ac/gaphor-2.9.2-py3-none-any.whl
+    sha256: a61d25dd2cecff42b0d741a90bc66f64dadda9d3310eb8534c0d54413c95a433
   - type: file
     url: https://files.pythonhosted.org/packages/5f/05/c4c9eb08658e9596ffd6096092c12f71133798645d6314f98cbba1782dac/darkdetect-0.5.1-py3-none-any.whl
     sha256: bd96c0239875e2b81c6e542a35299aab2b20c7290f97f7b01a206071908a12b3
@@ -21,6 +21,9 @@ sources:
     url: https://files.pythonhosted.org/packages/b3/0e/836f12ec50075161e365131f13f5758451645af75c2becf61c6351ecec39/jedi-0.18.1-py2.py3-none-any.whl
     sha256: 637c9635fcf47945ceb91cd7f320234a7be540ded6f3e99a50cb6febdfd1ba8d
   - type: file
+    url: https://files.pythonhosted.org/packages/05/63/8011bd08a4111858f79d2b09aad86638490d62fbf881c44e434a6dfca87b/parso-0.8.3-py2.py3-none-any.whl
+    sha256: c001d4636cd3aecdaf33cbb40aebb59b094be2a74c556778ef5576c175e19e75
+  - type: file
     url: https://files.pythonhosted.org/packages/92/a4/506564f574fa74c90b98690e8ecc8dbae1629f31fcfe0be69de45d9e1605/pycairo-1.21.0.tar.gz
     sha256: 251907f18a552df938aa3386657ff4b5a4937dde70e11aa042bc297957f4b74b
   - type: file
@@ -29,9 +32,6 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/53/7b/5dba39bf0572f1f28e2844f08f74a73482a381de1d1feac3bbc6b808051e/tinycss2-1.1.1-py3-none-any.whl
     sha256: fe794ceaadfe3cf3e686b22155d0da5780dd0e273471a51846d0a02bc204fec8
-  - type: file
-    url: https://files.pythonhosted.org/packages/05/63/8011bd08a4111858f79d2b09aad86638490d62fbf881c44e434a6dfca87b/parso-0.8.3-py2.py3-none-any.whl
-    sha256: c001d4636cd3aecdaf33cbb40aebb59b094be2a74c556778ef5576c175e19e75
   - type: file
     url: https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
     sha256: a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78
