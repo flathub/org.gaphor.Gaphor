@@ -48,8 +48,8 @@ clean:
 
 setup:
 	flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-	flatpak install flathub org.gnome.Sdk//41
-	flatpak install flathub org.gnome.Platform//41
+	flatpak install flathub org.gnome.Sdk//42
+	flatpak install flathub org.gnome.Platform//42
 
 install: $(DIST)/$(ID).flatpak
 	flatpak install --reinstall $(DIST)/$(ID).flatpak
