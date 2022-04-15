@@ -1,10 +1,9 @@
 app-id: org.gaphor.Gaphor
 runtime: org.gnome.Platform
-runtime-version: '41'
+runtime-version: '42'
 sdk: org.gnome.Sdk
 command: gaphor
 finish-args:
-  - --socket=x11
   - --socket=fallback-x11
   - --share=ipc
   - --socket=wayland
@@ -14,12 +13,6 @@ cleanup:
   - /lib/debug
 modules:
   - gaphor-bin.yaml
-  - name: gtksourceview4
-    buildsystem: meson
-    sources:
-      - type: archive
-        url: https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.1.tar.xz
-        sha256: d163d71b5fcafbc5b1eec6dd841edbdbcddd3a7511cd5fdcffd86b8bbfe69ac1
   - name: gaphor-extras
     buildsystem: simple
     sources:
