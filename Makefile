@@ -52,4 +52,7 @@ setup:
 	flatpak install flathub org.gnome.Platform//42
 
 install: $(DIST)/$(ID).flatpak
-	flatpak install --reinstall $(DIST)/$(ID).flatpak
+	flatpak install --user --reinstall $(DIST)/$(ID).flatpak
+
+uninstall:
+	flatpak uninstall org.gaphor.Gaphor//master
