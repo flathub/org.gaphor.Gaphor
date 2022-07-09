@@ -6,11 +6,14 @@ cleanup:
   - /share/man
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/18/3c/6b774e7ad5af1163865c17063d9f186f3ba384745ef64a5b2e4a768d81b5/gaphor-2.10.0-py3-none-any.whl
-    sha256: ab9165980b4ab6c67bdd39ca1aac5f213a4968f38075c2e4beb0206b3dda6097
+    url: https://files.pythonhosted.org/packages/8e/cc/d7c39b3edeb87ed4e4420b6b4d2fd94971741942db4c5fd59ff38c4f175c/gaphor-2.11.0-py3-none-any.whl
+    sha256: c961d51f21fc6ea395538404b3f84caff7b542b3c65efd145d472226b1de48ef
   - type: file
-    url: https://files.pythonhosted.org/packages/5f/05/c4c9eb08658e9596ffd6096092c12f71133798645d6314f98cbba1782dac/darkdetect-0.5.1-py3-none-any.whl
-    sha256: bd96c0239875e2b81c6e542a35299aab2b20c7290f97f7b01a206071908a12b3
+    url: https://files.pythonhosted.org/packages/ed/50/abf6850135f1e95d321a525d0a36e05255a039b3fc118b7d88413e8a8207/better_exceptions-0.3.3-py3-none-any.whl
+    sha256: 9c70b1c61d5a179b84cd2c9d62c3324b667d74286207343645ed4306fdaad976
+  - type: file
+    url: https://files.pythonhosted.org/packages/8a/a7/a7b4e6c15cb774cddce0d8c5e5f5692e6f940356af4d8320c690985fde61/darkdetect-0.6.0-py3-none-any.whl
+    sha256: 9984327f5f0deeb4f02de01a18976825bc079befe7496b60c8d1fb0a06904d8e
   - type: file
     url: https://files.pythonhosted.org/packages/8d/49/70907258266563abc04049a21f0385f506be31c7d6f734f11a879964a48f/gaphas-3.6.0-py3-none-any.whl
     sha256: 1b823a6af4baad4f4bb308f1a45e3bcf5722f26f7409deb436ffce06fcd76c6e
@@ -30,8 +33,8 @@ sources:
     url: https://files.pythonhosted.org/packages/53/7b/5dba39bf0572f1f28e2844f08f74a73482a381de1d1feac3bbc6b808051e/tinycss2-1.1.1-py3-none-any.whl
     sha256: fe794ceaadfe3cf3e686b22155d0da5780dd0e273471a51846d0a02bc204fec8
   - type: file
-    url: https://files.pythonhosted.org/packages/8b/31/e81a7685eed779b50632cfe53202225584e9635efc817a01076ff6214733/exceptiongroup-1.0.0rc7-py3-none-any.whl
-    sha256: 82dc1cfc21bb5f921a25925e80ec696c71b7d108c6c63bd8a786abe2b73c3263
+    url: https://files.pythonhosted.org/packages/9a/8e/21e73923dabbf1b4bb36bc1c0f8f6da5c7d6becd0902213dbefa386ca8dc/exceptiongroup-1.0.0rc8-py3-none-any.whl
+    sha256: ab0a968e1ef769e55d9a596f4a89f7be9ffedbc9fdefdb77cc68cf5c33ce1035
   - type: file
     url: https://files.pythonhosted.org/packages/05/63/8011bd08a4111858f79d2b09aad86638490d62fbf881c44e434a6dfca87b/parso-0.8.3-py2.py3-none-any.whl
     sha256: c001d4636cd3aecdaf33cbb40aebb59b094be2a74c556778ef5576c175e19e75
