@@ -8,6 +8,7 @@ finish-args:
   - --share=ipc
   - --socket=wayland
   - --filesystem=host
+  - --device=dri
 cleanup:
   - /include
   - /lib/debug
