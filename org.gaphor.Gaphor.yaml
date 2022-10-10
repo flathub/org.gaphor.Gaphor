@@ -12,6 +12,7 @@ finish-args:
 cleanup:
   - /include
 modules:
+  - graphviz.yaml
   - gaphor-bin.yaml
   - name: gaphor-extras
     buildsystem: simple
