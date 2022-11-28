@@ -32,7 +32,7 @@ $(DIST)/$(ID).flatpak: $(REPO)
 	mkdir -p dist
 	flatpak build-bundle $(REPO) $@ $(ID)
 
-$(REPO): gaphor-bin.yaml org.gaphor.Gaphor.yaml
+$(REPO): gaphor-bin.yaml graphviz.yaml org.gaphor.Gaphor.yaml
 	flatpak-builder --force-clean --repo=$@ $(BUILD)/build $(ID).yaml
 	flatpak build-update-repo $(REPO)
 

@@ -14,8 +14,6 @@ name: gaphor-bin
 buildsystem: simple
 build-commands:
   - pip3 install --no-index --find-links="file://\${PWD}" --prefix=\${FLATPAK_DEST} gaphor
-cleanup:
-  - /share/man
 sources:
 EOF
 

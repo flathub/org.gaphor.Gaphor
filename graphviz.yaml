@@ -1,0 +1,13 @@
+name: graphviz
+buildsystem: simple
+build-commands:
+  - tar xzf graphviz-6.0.1.tar.gz
+  - cd graphviz-6.0.1 && ./configure --prefix=${FLATPAK_DEST}  --without-x --with-qt=no --with-gtk=no --enable-swig=no --with-webp=no --with-rsvg=no --with-visio=no --with-gdk-pixbuf=no --with-pangocairo=no
+  - cd graphviz-6.0.1 && make install
+cleanup:
+  - /share/man
+  - /share/graphviz
+sources:
+  - type: file
+    url: https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/6.0.1/graphviz-6.0.1.tar.gz
+    sha256: a8be1a9ae26db9f4a786820ceb27572aa6cc098cbb22738889ee77fc5f9d0524
