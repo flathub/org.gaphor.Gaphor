@@ -7,6 +7,7 @@ Comment[hr]=Jednostavan program za modeliranje
 Comment[hu]=Egyszerű modellező eszköz
 Comment[nl]=De eenvoudige modelleertool
 Comment[pl]=Proste narzędzie do modelowania
+Comment[ru]=Простой инструмент моделирования
 Exec=gaphor %f
 Icon=org.gaphor.Gaphor
 Terminal=false
