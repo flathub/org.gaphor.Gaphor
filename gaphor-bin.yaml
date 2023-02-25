@@ -4,8 +4,8 @@ build-commands:
   - pip3 install --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} gaphor
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/e9/a0/f8526c6b17cddc99149562ab477bb185164488b6568afe8cc6532fc5f252/gaphor-2.16.0-py3-none-any.whl
-    sha256: b5cc56bf4b956591fcba494bc4137d232ad3d40d23f6be39cf3703f4089b108e
+    url: https://files.pythonhosted.org/packages/d9/58/cc297655ba8b932e5b3fa64bc2960abcbe6f1d487c911c45231b9f5c0096/gaphor-2.17.0-py3-none-any.whl
+    sha256: addb50fdfb89dbf2b6c59ff4608a23d9797b16c23fd729e9eea32db521246fb7
   - type: file
     url: https://files.pythonhosted.org/packages/ed/50/abf6850135f1e95d321a525d0a36e05255a039b3fc118b7d88413e8a8207/better_exceptions-0.3.3-py3-none-any.whl
     sha256: 9c70b1c61d5a179b84cd2c9d62c3324b667d74286207343645ed4306fdaad976
