@@ -25,7 +25,7 @@ version:
 appdata:
 	sed -i '/  <releases>/a \ \ \ \ <release version="$(VERSION)" date="$(shell date +%Y-%m-%d)"/>' share/org.gaphor.Gaphor.appdata.xml
 
-gaphor-bin.yaml:
+gaphor-bin.yaml: depends.sh
 	bash depends.sh ${VERSION} > gaphor-bin.yaml
 
 $(DIST)/$(ID).flatpak: $(REPO)
