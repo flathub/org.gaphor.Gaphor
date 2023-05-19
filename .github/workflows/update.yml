@@ -1,0 +1,30 @@
+name: Update Gaphor version
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'New version'
+        required: true
+  repository_dispatch:
+
+permissions:
+  contents: write 
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.5.2
+      - name: Update version
+        run: >
+          git checkout -b release-${{ github.event.inputs.version }}
+          make update VERSION=${{ github.event.inputs.version }}
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: update to version ${{ github.event.inputs.version }}
+          title: Update to version ${{ github.event.inputs.version }}
+          body: Update to latest release
+          branch: release-${{ github.event.inputs.version }}
+          base: master
