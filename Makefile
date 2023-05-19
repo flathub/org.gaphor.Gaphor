@@ -25,7 +25,7 @@ version:
 	sed -i "s/^VERSION .*/VERSION := ${VERSION}/" Makefile
 
 appdata:
-	sed -i '/  <releases>/a \ \ \ \ <release version="$(VERSION)" date="$(shell date +%Y-%m-%d)"/>' share/org.gaphor.Gaphor.appdata.xml
+	python3 update-appdata.py $(VERSION)
 
 gaphor-bin.yaml: depends.sh
 	bash depends.sh ${VERSION} > gaphor-bin.yaml
