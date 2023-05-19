@@ -94,11 +94,105 @@
     </p>
   </description>
   <releases>
-    <release version="2.18.1" date="2023-04-29" />
-    <release version="2.18.0" date="2023-04-07" />
-    <release version="2.17.0" date="2023-02-25" />
-    <release version="2.16.0" date="2023-02-04" />
-    <release version="2.15.0" date="2023-01-08" />
+    <release version="2.18.1" date="2023-04-29">
+      <description>
+        <ul>
+          <li>Make operations visible on Blocks</li>
+          <li>A quick fix for crashes in the CSS editor, disable autocomplete</li>
+          <li>Fix doc translation catalogs not found</li>
+          <li>Fix encoding warnings for no encoding argument</li>
+          <li>Update AppImage build with GTK 4.10</li>
+          <li>Add non-goals to README</li>
+          <li>Enable translation of docs, and add Crotian, German, and Dutch</li>
+          <li>Updates to most translations and add Tamil</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.18.1</url>
+    </release>
+    <release version="2.18.0" date="2023-04-07">
+      <description>
+        <ul>
+          <li>Support for manually resolving Git merge conflicts</li>
+          <li>Drop support for GTK3, bundle macOS with GTK4</li>
+          <li>Enable middle-click mouse scrolling of diagrams</li>
+          <li>Support for changing the spoken language in a model</li>
+          <li>Add diagrams in diagrams</li>
+          <li>Upgrade development build to GNOME 44</li>
+          <li>Clean up application architecture for copy service</li>
+          <li>Css editor dark mode</li>
+          <li>macOS: update notarize, staple, and cert actions</li>
+          <li>Just load modules for gaphor.modules entry points</li>
+          <li>Finnish, Dutch, Spanish, Polish, Portuguese (BRA) translation update</li>
+          <li>Toggle the "no tabs" background based on notebook activity</li>
+          <li>Fix drag from model browser</li>
+          <li>Fix orthogonal lines during copy/paste</li>
+          <li>Update diagram directly when partitions change</li>
+          <li>Make main window always available to avoid warnings</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.18.0</url>
+    </release>
+    <release version="2.17.0" date="2023-02-25">
+      <description>
+        <ul>
+          <li>Add support for diagram metadata</li>
+          <li>macOS: Fix freeze creating new diagram</li>
+          <li>Properly unsubscribe when property page is removed</li>
+          <li>Package GSettings daemon schemas for AppImage</li>
+          <li>Consider only default modifiers in toolbox shortcuts</li>
+          <li>New status page icon</li>
+          <li>Workaround removing skip-changelog labels</li>
+          <li>Update gvsbuild to version 2023.2.0</li>
+          <li>meta: Add .doap-file</li>
+          <li>Update "Keep model in sync" design principle</li>
+          <li>Update to using the GNOME Code of Conduct</li>
+          <li>Add Polish translation</li>
+          <li>Spanish, Dutch, Croatian, Turkish, and German Translation Updates</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.17.0</url>
+    </release>
+    <release version="2.16.0" date="2023-02-04">
+      <description>
+        <ul>
+          <li>Automatic switching to dark mode in diagrams</li>
+          <li>Add Model browser multi select and popup menu</li>
+          <li>Refactor and improve model browser</li>
+          <li>Use normal + icon for new diagram dropdown</li>
+          <li>Add support for CSS variables and named colors</li>
+          <li>Apply development mode for dev releases</li>
+          <li>Show diagram name in header</li>
+          <li>Show something when no diagrams are opened</li>
+          <li>Fix the packaged data dirs</li>
+          <li>Stabilize macOS/GTK tests</li>
+          <li>Add a comments option to our documentation</li>
+          <li>Split tips in to multiple labels</li>
+          <li>Win and macOS: Fix wrong language selected when region not default</li>
+          <li>Fix translation warning never logged with missing mo files</li>
+          <li>Spanish, Russian, Hungarian, Czech translation update</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.16.0</url>
+    </release>
+    <release version="2.15.0" date="2023-01-08">
+      <description>
+        <ul>
+          <li>Add basic git merge conflict support by asking which model to load</li>
+          <li>Improvements to CSS autocomplete with function completion</li>
+          <li>Insert colons, spaces, and () automatically for CSS autocomplete</li>
+          <li>Use native file chooser in Windows</li>
+          <li>Fix translations not loading in Windows, macOS, and AppImage</li>
+          <li>Fix PyInstaller versionfile parse error with pre-release versions</li>
+          <li>Update CI to publish to PyPI after all other jobs have passed</li>
+          <li>Replace pytest-mock with monkeypatch for tests</li>
+          <li>Fix PEP597 encoding warnings</li>
+          <li>Fix regression that caused line handles to not snap to elements</li>
+          <li>Add Turkish, and update French, Russian, and Swedish translations</li>
+          <li>Remove translation Makefile</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.15.0</url>
+    </release>
     <release version="2.14.2" date="2022-12-28" />
     <release version="2.14.1" date="2022-12-28" />
     <release version="2.14.0" date="2022-12-24" />
