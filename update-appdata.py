@@ -6,6 +6,7 @@ import time
 import urllib.request
 from xml.etree import ElementTree as etree
 
+
 def update_release(appdata_file, version, date, notes):
     tree = etree.parse(appdata_file)
 
@@ -18,11 +19,8 @@ def update_release(appdata_file, version, date, notes):
 
 def find_release(tree, version, date):
     if (release := tree.find(f"./releases/release[@version='{version}']")) is None:
-        print("Creating a new release")
         release = etree.Element("release", attrib={"version": version, "date": date})
         tree.find("./releases").insert(0, release)
-    else:
-        print("Updating existing release")
 
     return release
 
@@ -67,6 +65,7 @@ def parse_news(news_text: str):
     news = {}
     current_version = None
     current_news = None
+
     for line in news_text.splitlines():
         if re.match("^\d+.\d+.\d+$", line):
             current_news = []
@@ -78,6 +77,7 @@ def parse_news(news_text: str):
             current_news[-1] = current_news[-1] + " " + line.strip()
         elif not line:
             current_version = None
+
     return news
 
 
@@ -94,7 +94,6 @@ def test_parse_news():
         - Feature one
         - Feature two
         """)
-
 
     news = parse_news(fragment)
 
