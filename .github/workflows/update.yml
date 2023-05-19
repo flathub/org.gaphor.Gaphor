@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v3.5.2
       - name: Update version
         run: >
-          make update VERSION=${{ github.event.inputs.version }}
+          make only-update VERSION=${{ github.event.inputs.version }}
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:

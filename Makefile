@@ -19,6 +19,8 @@ dist: $(DIST)/$(ID).flatpak
 update: clean version appdata
 	$(MAKE) clean all
 
+only-update: clean version appdata gaphor-bin.yaml
+
 version:
 	sed -i "s/^VERSION .*/VERSION := ${VERSION}/" Makefile
 
