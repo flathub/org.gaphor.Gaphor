@@ -49,7 +49,7 @@ def update_release_details(release, version, notes):
 
 
 def download_news_from_github():
-    url = "https://raw.githubusercontent.com/gaphor/gaphor/main/NEWS"
+    url = "https://raw.githubusercontent.com/gaphor/gaphor/main/CHANGELOG.md"
     with urllib.request.urlopen(url, context=ssl.create_default_context()) as response:
         return response.read().decode(encoding="utf-8")
 
