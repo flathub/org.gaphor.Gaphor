@@ -97,7 +97,7 @@
     <release version="2.19.0" date="2023-06-17">
       <description>
         <ul>
-          <li>Dropped support for AppImage (for discussion see https://github.com/gaphor/gaphor/issues/2285)</li>
+          <li>Dropped support for AppImage
           <li>Add Information Flow support for Associations</li>
           <li>Interactions: fixed DnD for partially connected messages</li>
           <li>Restore CSS auto-complete</li>
