@@ -97,7 +97,7 @@
     <release version="2.19.0" date="2023-06-17">
       <description>
         <ul>
-          <li>Dropped support for AppImage
+          <li>Dropped support for AppImage</li>
           <li>Add Information Flow support for Associations</li>
           <li>Interactions: fixed DnD for partially connected messages</li>
           <li>Restore CSS auto-complete</li>
