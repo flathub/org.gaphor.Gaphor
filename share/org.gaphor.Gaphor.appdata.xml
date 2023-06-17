@@ -94,6 +94,25 @@
     </p>
   </description>
   <releases>
+    <release version="2.19.0" date="2023-06-17">
+      <description>
+        <ul>
+          <li>Dropped support for AppImage (for discussion see https://github.com/gaphor/gaphor/issues/2285)</li>
+          <li>Add Information Flow support for Associations</li>
+          <li>Interactions: fixed DnD for partially connected messages</li>
+          <li>Restore CSS auto-complete</li>
+          <li>Docs: A coffee machine tutorial has been added</li>
+          <li>Make model loading more lenient to model corruption</li>
+          <li>CLI: export diagrams and run scripts within Gaphor</li>
+          <li>Enable PyPI Trusted Publisher</li>
+          <li>Replace deprecated Gtk.TreeView with ListView: Activity Parameter Nodes</li>
+          <li>Use consistent naming for element_factory in storage module</li>
+          <li>Use new style Dropdowns for selecting items in property editor</li>
+          <li>Updates to translations</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.19.0</url>
+    </release>
     <release version="2.18.1" date="2023-04-29">
       <description>
         <ul>
