@@ -94,6 +94,19 @@
     </p>
   </description>
   <releases>
+    <release version="2.19.1" date="2023-07-02">
+      <description>
+        <ul>
+          <li>Fix: order is preserved when undoing a change</li>
+          <li>Actions: ObjectNode now also connects to decision/merge and join/fork nodes.</li>
+          <li>Fix: ports should be nested under properties</li>
+          <li>Experimental: support for plugins</li>
+          <li>Add fullscreen mode with F11</li>
+          <li>Remove Tkinter from packaging</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.19.1</url>
+    </release>
     <release version="2.19.0" date="2023-06-17">
       <description>
         <ul>
