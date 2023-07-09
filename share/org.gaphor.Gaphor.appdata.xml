@@ -94,6 +94,26 @@
     </p>
   </description>
   <releases>
+    <release version="2.19.2" date="2023-07-09">
+      <description>
+        <ul>
+          <li>Add SysML Requirements trace derived unions</li>
+          <li>Fix Parameter Node and Execution Specification with Dark mode</li>
+          <li>Scale parameter nodes to contain long names</li>
+          <li>Lenient derived unions</li>
+          <li>Fix segfault by reverting Gtk.ListVew for Parameters</li>
+          <li>Fix connect interaction fragments</li>
+          <li>chore: clean up deprecated properties from UIComponent</li>
+          <li>Add Python 3.12 Support, Update Poetry to version 1.5.1</li>
+          <li>Apply security best practices to GitHub Actions</li>
+          <li>Create a Security Policy and Run Scorecard Checks</li>
+          <li>Only use mature translations for released versions of Gaphor</li>
+          <li>Update Spanish, Hungarian, and Finnish translations</li>
+          <li>Fix scaling of Activity Parameter nodes</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.19.2</url>
+    </release>
     <release version="2.19.1" date="2023-07-02">
       <description>
         <ul>
