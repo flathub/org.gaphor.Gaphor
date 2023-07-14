@@ -31,6 +31,9 @@ sources:
     url: https://files.pythonhosted.org/packages/88/89/c34caf63029fb7628ec2ebd5c88ae0c9bd17db98c812e4065a4d020ca41f/cffi-1.15.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
     sha256: dd86c085fae2efd48ac91dd7ccffcfc0571387fe1193d33b6394db7ef31fe2a4
   - type: file
+    url: https://files.pythonhosted.org/packages/09/d1/85c0ff03f2eb81b274c45f0a167122a59435df322a5ad89b7b116b72504f/gaphor-2.19.3-py3-none-any.whl
+    sha256: efb2e64ef08e2ca446a10ac35c4549fa1814d2cc39347e6de7c1c12f0b77a003
+  - type: file
     url: https://files.pythonhosted.org/packages/ef/41/19da352d341963d29a33bdb28433ba94c05672fb16155f794fad3fd907b0/cffi-1.15.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
     sha256: 21157295583fe8943475029ed5abdcf71eb3911894724e360acff1d61c1d54bc
   - type: file
@@ -54,9 +57,6 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/a2/dd/bc2c9ee9485308a29c18b1241329e677917af25c60b127857f0fb23d0c6e/pycairo-1.24.0.tar.gz
     sha256: 1444d52f1bb4cc79a4a0c0fe2ccec4bd78ff885ab01ebe1c0f637d8392bcafb6
-  - type: file
-    url: https://files.pythonhosted.org/packages/a5/31/6722d6b6d11a787259c3ac0ef41d7332be4157ba755db09876402e7df89f/gaphor-2.19.2-py3-none-any.whl
-    sha256: 6ddfc2d0a594bd4faea4f6c5911e3f2461440aaea635412486ce337d4aa7e338
   - type: file
     url: https://files.pythonhosted.org/packages/44/80/96d6317a15a13a4f80ffa61118dc144a70756135fbc6ace30f9b033f51f7/PyGObject-3.44.1.tar.gz
     sha256: 665fbe980c91e8b31ad78ed3f66879946948200864002d193f67eccc1d7d5d83

@@ -94,6 +94,16 @@
     </p>
   </description>
   <releases>
+    <release version="2.19.3" date="2023-07-14">
+      <description>
+        <ul>
+          <li>Windows: Fix missing toolbar icons</li>
+          <li>Fix loading of ProxyPorts with informationFlow attached</li>
+          <li>Fix to resolve CSS style variables before using the values</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.19.3</url>
+    </release>
     <release version="2.19.2" date="2023-07-09">
       <description>
         <ul>
