@@ -94,6 +94,40 @@
     </p>
   </description>
   <releases>
+    <release version="2.20.0" date="2023-08-08">
+      <description>
+        <ul>
+          <li>Add ValueSpecificationAction</li>
+          <li>New element creation through model browser</li>
+          <li>Interface block support on diagram</li>
+          <li>Constrain SysML diagram creation in the model explorer to conform with SysML 1.6 specification</li>
+          <li>Add type selection for Lifelines</li>
+          <li>Support SysMLDiagram type and diagram type specific header formatting</li>
+          <li>Pin type multiplicity</li>
+          <li>Deep copy for packages and diagrams</li>
+          <li>Add Direct association to toolbar menu</li>
+          <li>Add CallBehaviorAction to Activity profile</li>
+          <li>Add operations compartment to Blocks</li>
+          <li>Toggle visibility of ProxyPort type</li>
+          <li>Provide value for 'Show value' in properties page</li>
+          <li>Format pins by their name</li>
+          <li>Do not remove unused Packages with children</li>
+          <li>Fix: tree view should not collapse when an element is deleted</li>
+          <li>Fix: only open model browser elements with a model element</li>
+          <li>Upgrade Gvsbuild to 2023.7.1</li>
+          <li>Update minimal Pytho nversion to 3.10</li>
+          <li>Fix: ensure a newly placed item is no longer a dropzone item</li>
+          <li>Fix: incorrect filling between shapes</li>
+          <li>Fix: weird pin rendering</li>
+          <li>Fix: diagram background shouldn't be shared between open models</li>
+          <li>Fix: activity parameter node is always stuck to the activity when moving</li>
+          <li>Fix: notes should be applied to model elements and will be named "Note"</li>
+          <li>Fix: error when inverting association</li>
+          <li>Update Croatian translations</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.20.0</url>
+    </release>
     <release version="2.19.3" date="2023-07-14">
       <description>
         <ul>
