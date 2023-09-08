@@ -94,6 +94,30 @@
     </p>
   </description>
   <releases>
+    <release version="2.21.0" date="2023-09-08">
+      <description>
+        <ul>
+          <li>Add picture as core element</li>
+          <li>Move diagram elements with the arrow keys</li>
+          <li>Add interface block to element creation menu</li>
+          <li>Support state entry, exit, and do behavior selection via dropdown</li>
+          <li>Add feature to align diagram elements</li>
+          <li>Display type of element in the properties panel</li>
+          <li>Removed unnecessary operations and attributes for requirements</li>
+          <li>Enable macOS keybindings again</li>
+          <li>Fix missing derive relationship icon in the model browser</li>
+          <li>Fix block not showing parts and references</li>
+          <li>Fixed Profile is created instead of Stereotype in model browser</li>
+          <li>Add ownership rules to DirectedRelationshipPropertyPath.targetContext</li>
+          <li>Add tests and fix `Component.required`</li>
+          <li>Present the Greeter, instead of only making it visible</li>
+          <li>Fix derive-reqt model browser icon</li>
+          <li>Improve coverage reporting</li>
+          <li>Add system style sheet to the documentation</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.21.0</url>
+    </release>
     <release version="2.20.0" date="2023-08-08">
       <description>
         <ul>
