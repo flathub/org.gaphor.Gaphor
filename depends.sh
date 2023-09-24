@@ -12,8 +12,8 @@ pip3 download -q --dest ${BUILD}  gaphor=="${GAPHOR_VERSION}"
 # Generate stubs for any binary installation file
 for FILE in ${BUILD}/*manylinux*
 do
-  touch "$(echo $FILE | cut -d- -f1,2)-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-  touch "$(echo $FILE | cut -d- -f1,2)-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  touch "$(echo $FILE | cut -d- -f1,2)-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  touch "$(echo $FILE | cut -d- -f1,2)-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
 done
 
 cat << EOF
