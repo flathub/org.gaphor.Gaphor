@@ -94,6 +94,29 @@
     </p>
   </description>
   <releases>
+    <release version="2.22.0" date="2023-11-28">
+      <description>
+        <ul>
+          <li>Proxy port improvements</li>
+          <li>Add preferences for overriding dark mode and language to English</li>
+          <li>Add allocations toolbox with allocate relationship item</li>
+          <li>Add members in model browser</li>
+          <li>Make line selection easier by increasing tolerance</li>
+          <li>Make model loading more lenient</li>
+          <li>Remove duplicated elements in Component.provided property</li>
+          <li>Replace Black, check toml, isort, and refurb with Ruff</li>
+          <li>macOS: fix About dialog links</li>
+          <li>macOS: upgrade notarization from altool to notarytool</li>
+          <li>Upgrade to libadwaita 1.4.0</li>
+          <li>Update Sphinx to version 6.0</li>
+          <li>Update PyInstaller to version 6.1</li>
+          <li>Clean up transactional event handling</li>
+          <li>Use defusedxml to avoid loading potentially dangerous xml</li>
+          <li>Update Portuguese (Brazilian), Italian, Tamil,</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.22.0</url>
+    </release>
     <release version="2.21.0" date="2023-09-08">
       <description>
         <ul>
