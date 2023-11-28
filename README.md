@@ -30,7 +30,7 @@ flatpak remote-add flathub --user --if-not-exists https://flathub.org/repo/flath
 flatpak install --user flathub org.gnome.Sdk/x86_64/43
 ```
 
-Finally run `make` to build a flatpak. `make install` will install it in your local Flatpak environment.
+Finally, run `make` to build a flatpak. `make install` will install it in your local Flatpak environment.
 `make uninstall` will remove it again.
 
 Run the flatpak with `flatpak run org.gaphor.Gaphor`
