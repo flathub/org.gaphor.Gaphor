@@ -34,6 +34,9 @@ sources:
     url: https://files.pythonhosted.org/packages/b8/9a/5028fd52db10e600f1c4674441b968cf2ea4959085bfb5b99fb1250e5f68/exceptiongroup-1.2.0-py3-none-any.whl
     sha256: 4bfd3996ac73b41e9b9628b04e079f193850720ea5945fc96a08633c66912f14
   - type: file
+    url: https://files.pythonhosted.org/packages/72/29/9ccf47500489c04636e18a727ed7020747fe4f6e2438dcbdb5e5d276a396/gaphor-2.22.1-py3-none-any.whl
+    sha256: 3bf358c04a0c4f4336d525d3c8d6ba6b337d3b8a36944a0ac33f7bd7c96dfca8
+  - type: file
     url: https://files.pythonhosted.org/packages/c7/7c/de4d40316ee563e4f15a0f05f28c8458833fbef80c4588b9dd51f39b78ee/pycairo-1.25.1.tar.gz
     sha256: 7e2be4fbc3b4536f16db7a11982cbf713e75069a4d73d44fe5a49b68423f5c0c
   - type: file
@@ -57,9 +60,6 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/ea/76/75b1bb82e9bad3e3d656556eaa353d8cd17c4254393b08ec9786ac8ed273/pydot-1.4.2-py2.py3-none-any.whl
     sha256: 66c98190c65b8d2e2382a441b4c0edfdb4f4c025ef9cb9874de478fb0793a451
-  - type: file
-    url: https://files.pythonhosted.org/packages/c5/bc/f56032e04692c0a95b2759c4c16008825e0ead039ae347f056c78f468f6e/gaphor-2.22.0-py3-none-any.whl
-    sha256: b4925d72b7d0a5a2dce6d0c5143d42dd42328d65856e99f14eda91093dcfb54a
   - type: file
     url: https://files.pythonhosted.org/packages/0b/c0/66cd7df4bc0e11e9bcf60572657c1c8a45aef65543f5e079fcce110b1406/gaphas-3.11.3-py3-none-any.whl
     sha256: 9df26e9543672f97eeeda4c21292218f9736b284c6f325e45e1a5558fbcb4aba

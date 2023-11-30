@@ -94,6 +94,20 @@
     </p>
   </description>
   <releases>
+    <release version="2.22.1" date="2023-11-30">
+      <description>
+        <ul>
+          <li>Flatpak: Fix app preferences aren't saved</li>
+          <li>Fix TypeError when changing to dark mode and refactor settings</li>
+          <li>Fix grouping: allow to group to "root"</li>
+          <li>Add support for dropping SysML diagrams on diagrams</li>
+          <li>Catch errors when a clipboard is empty</li>
+          <li>Fix DnD file opening on macOS</li>
+          <li>Fix libadwaita 1.4.0 missing for hypothesis tests</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.22.1</url>
+    </release>
     <release version="2.22.0" date="2023-11-28">
       <description>
         <ul>
