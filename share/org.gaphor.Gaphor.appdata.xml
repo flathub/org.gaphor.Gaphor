@@ -94,6 +94,30 @@
     </p>
   </description>
   <releases>
+    <release version="2.23.0" date="2024-01-07">
+      <description>
+        <ul>
+          <li>Support types for parameters</li>
+          <li>Restore windows in maximized and full-screen state</li>
+          <li>Fine grained CSS: elements in a presentation item can be changed from CSS (experimental)</li>
+          <li>Very long element names are now wrapped</li>
+          <li>Format files accessed from Flatpak via portals</li>
+          <li>Update Property Editor to use Gtk.ColumnView and ListView</li>
+          <li>Replace deprecated Gtk.FileChooser by FileDialog</li>
+          <li>Replace in-app notifications by Adwaita Toasts</li>
+          <li>macOS: Update app icon</li>
+          <li>macOS: Fix ⓘ icon in Property Editor isn't displayed</li>
+          <li>macOS and Windows: Apply custom window shadow</li>
+          <li>Fix Gaphor should work if GSettings schema is not available</li>
+          <li>Fix values showing under part compartment in SysML Block elements</li>
+          <li>Fix merge-node icon</li>
+          <li>Fix connecting lines when model is loaded and documentation updates</li>
+          <li>Fix macOS build and documentation generation</li>
+          <li>Update Russian, Chinese, Polish, Hungarian, Turkish and German translations</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.23.0</url>
+    </release>
     <release version="2.22.1" date="2023-11-30">
       <description>
         <ul>
