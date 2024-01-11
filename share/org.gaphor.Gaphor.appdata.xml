@@ -94,6 +94,17 @@
     </p>
   </description>
   <releases>
+    <release version="2.23.1" date="2024-01-11">
+      <description>
+        <ul>
+          <li>Fix Activity Swimlanes aren't visible</li>
+          <li>Fix CSS attribute rules</li>
+          <li>Remove duplicate stereotypes at root of model browser</li>
+          <li>Update Croatian translations</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.23.1</url>
+    </release>
     <release version="2.23.0" date="2024-01-07">
       <description>
         <ul>
