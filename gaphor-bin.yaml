@@ -28,6 +28,9 @@ sources:
     url: https://files.pythonhosted.org/packages/c9/7c/43d81bdd5a915923c3bad5bb4bff401ea00ccc8e28433fb6083d2e3bf58e/cffi-1.16.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
     sha256: e4108df7fe9b707191e55f33efbcb2d81928e10cea45527879a4749cbe472614
   - type: file
+    url: https://files.pythonhosted.org/packages/b3/fb/9f7f85aa2ecf5f66d0235c7c5bf31fc41396c8decacd2f3798e1f2844dca/gaphor-2.23.1-py3-none-any.whl
+    sha256: 8f5676dfb1941dbe7689ce9b9e75970331536aab70fd12c79454cd39b9534f67
+  - type: file
     url: https://files.pythonhosted.org/packages/7f/90/c9b51f3cdff89cd8f93382060330f43d1af098a6624cff439e700791e922/pydot-2.0.0-py3-none-any.whl
     sha256: 408a47913ea7bd5d2d34b274144880c1310c4aee901f353cf21fe2e526a4ea28
   - type: file
@@ -63,9 +66,6 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/2c/36/57c68f5d03b471c4bd7302821b4fcb6f126ba91f78b590ffce00a8c2ac42/pillow-10.2.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
     sha256: 773efe0603db30c281521a7c0214cad7836c03b8ccff897beae9b47c0b657d61
-  - type: file
-    url: https://files.pythonhosted.org/packages/7a/9a/ba0f4685ee424ea2d04732b66c5b0107e17d8dd4acbbd83fd69c78d3f4f6/gaphor-2.23.0-py3-none-any.whl
-    sha256: 7a05f5f99f8cbed027f9e12f9efab162b541d081151b1e9d8089131c6aa54eff
   - type: file
     url: https://files.pythonhosted.org/packages/9b/89/a31c81e36bbb793581d8bba4406a8aac4ba84b2559301c44eef81f4cf5df/cffi-1.16.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
     sha256: 7b78010e7b97fef4bee1e896df8a4bbb6712b7f05b7ef630f9d1da00f6444d2e
