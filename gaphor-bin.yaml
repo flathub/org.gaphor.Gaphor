@@ -28,9 +28,6 @@ sources:
     url: https://files.pythonhosted.org/packages/c9/7c/43d81bdd5a915923c3bad5bb4bff401ea00ccc8e28433fb6083d2e3bf58e/cffi-1.16.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
     sha256: e4108df7fe9b707191e55f33efbcb2d81928e10cea45527879a4749cbe472614
   - type: file
-    url: https://files.pythonhosted.org/packages/b3/fb/9f7f85aa2ecf5f66d0235c7c5bf31fc41396c8decacd2f3798e1f2844dca/gaphor-2.23.1-py3-none-any.whl
-    sha256: 8f5676dfb1941dbe7689ce9b9e75970331536aab70fd12c79454cd39b9534f67
-  - type: file
     url: https://files.pythonhosted.org/packages/7f/90/c9b51f3cdff89cd8f93382060330f43d1af098a6624cff439e700791e922/pydot-2.0.0-py3-none-any.whl
     sha256: 408a47913ea7bd5d2d34b274144880c1310c4aee901f353cf21fe2e526a4ea28
   - type: file
@@ -48,6 +45,9 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/05/63/8011bd08a4111858f79d2b09aad86638490d62fbf881c44e434a6dfca87b/parso-0.8.3-py2.py3-none-any.whl
     sha256: c001d4636cd3aecdaf33cbb40aebb59b094be2a74c556778ef5576c175e19e75
+  - type: file
+    url: https://files.pythonhosted.org/packages/56/2e/700d72d89b535ffedf43cad29ad627ef3c99b2695ff5bdbbb912bc02c092/gaphor-2.23.2-py3-none-any.whl
+    sha256: 5a6ff4dcc7d19390eb43fd4405579e33ddd9269566be2e0946c05a6993716484
   - type: file
     url: https://files.pythonhosted.org/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl
     sha256: a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61

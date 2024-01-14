@@ -94,6 +94,17 @@
     </p>
   </description>
   <releases>
+    <release version="2.23.2" date="2024-01-14">
+      <description>
+        <ul>
+          <li>Fix models failing to load for collection not hashable TypeError</li>
+          <li>Fix file filters for export image dialog</li>
+          <li>Add CSS for "from: ", stereotypes, and compartments</li>
+          <li>Update Hungarian translations</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.23.2</url>
+    </release>
     <release version="2.23.1" date="2024-01-11">
       <description>
         <ul>
