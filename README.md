@@ -27,7 +27,7 @@ Flatpak dependencies:
 
 ```
 flatpak remote-add flathub --user --if-not-exists https://flathub.org/repo/flathub.flatpakrepo
-flatpak install --user flathub org.gnome.Sdk/x86_64/43
+flatpak install --user flathub org.gnome.Sdk/x86_64/45
 ```
 
 Finally, run `make` to build a flatpak. `make install` will install it in your local Flatpak environment.
