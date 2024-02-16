@@ -95,6 +95,21 @@
     </p>
   </description>
   <releases>
+    <release version="2.24.0" date="2024-02-15">
+      <description>
+        <ul>
+          <li>Fine grained CSS styling for model elements</li>
+          <li>Gaphor is now REUSE compliant</li>
+          <li>Connected elements are no longer automatcally removed from a diagram</li>
+          <li>Fix header bars for various windows</li>
+          <li>Various smaller UX improvements: greeter, diagram background, empty parameters</li>
+          <li>Install schemas by running `gaphor install-schemas`</li>
+          <li>Mitigations for false virus warnings on Windows</li>
+          <li>Fix issue when undoing fails</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.24.0</url>
+    </release>
     <release version="2.23.2" date="2024-01-14">
       <description>
         <ul>
