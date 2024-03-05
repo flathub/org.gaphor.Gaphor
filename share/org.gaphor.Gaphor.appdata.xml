@@ -14,6 +14,10 @@
     <category>Development</category>
     <category>Graphics</category>
   </categories>
+  <branding>
+    <color type="primary" scheme_preference="light">#ccf5d4</color>
+    <color type="primary" scheme_preference="dark">#0f3f29</color>
+  </branding>
   <screenshots>
     <screenshot type="default">
       <caption>The Gaphor main window</caption>
