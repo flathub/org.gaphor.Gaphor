@@ -99,6 +99,33 @@
     </p>
   </description>
   <releases>
+    <release version="2.25.0" date="2024-04-15">
+      <description>
+        <ul>
+          <li>Update UI to modern Adwaita layout</li>
+          <li>Greeter now has separate sections for templates and examples</li>
+          <li>Element details are now in Property Pages</li>
+          <li>Element selected in Model Browser shows in Property Editor</li>
+          <li>Right-click in diagram to find selected element in Model Browser</li>
+          <li>Allow to drop a ConnectableElement on a Lifeline</li>
+          <li>Display diagram type in model browser</li>
+          <li>Add simple notifier for file changes</li>
+          <li>Exception is now thrown when creating wrong diagram type in SysML</li>
+          <li>Do not perform diagram updates outside of a transaction</li>
+          <li>Use TypedElement.type for Lifeline and other types</li>
+          <li>Prevent removing relationships with Remove Unused Elements disabled</li>
+          <li>Do not quit if there are windows open after sessions are closed</li>
+          <li>Make `self-test` a command, instead of an option</li>
+          <li>Do not show "block" stereotype if other stereotypes are applied</li>
+          <li>Fix: associate Action with right Partition</li>
+          <li>Fix popover menus after profile change</li>
+          <li>Update Code of Conduct link to https://conduct.gnome.org/</li>
+          <li>Add virus scan with VirusTotal to CI</li>
+          <li>Many translation updates</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.25.0</url>
+    </release>
     <release version="2.24.0" date="2024-02-15">
       <description>
         <ul>
