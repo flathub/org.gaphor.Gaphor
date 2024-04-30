@@ -67,13 +67,13 @@ def parse_news(news_text: str):
     current_news = None
 
     for line in news_text.splitlines():
-        if re.match("^\d+.\d+.\d+$", line):
+        if re.match(r"^\d+.\d+.\d+$", line):
             current_news = []
             current_version = line
             news[current_version] = current_news
-        elif current_version and re.match("^ *- +", line):
-            current_news.append(re.sub("^ *- +", "", line))
-        elif current_news and re.match("^ +\w", line):
+        elif current_version and re.match(r"^ *- +", line):
+            current_news.append(re.sub(r"^ *- +", "", line))
+        elif current_news and re.match(r"^ +\w", line):
             current_news[-1] = current_news[-1] + " " + line.strip()
         elif not line:
             current_version = None
