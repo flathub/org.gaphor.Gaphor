@@ -7,7 +7,7 @@ GAPHOR_VERSION=${1}
 BUILD=build/pip
 
 mkdir -p ${BUILD}
-pip3 download -q --dest ${BUILD} --extra-index-url https://pypi.org/simple  gaphor=="${GAPHOR_VERSION}"
+pip3 download -q --no-binary dulwich --dest ${BUILD} --extra-index-url https://pypi.org/simple  gaphor=="${GAPHOR_VERSION}" setuptools_rust wheel
 
 # Generate stubs for any binary installation file
 for FILE in ${BUILD}/*manylinux*
@@ -20,7 +20,8 @@ cat << EOF
 name: gaphor-bin
 buildsystem: simple
 build-commands:
-  - pip3 install --no-index --find-links="file://\${PWD}" --prefix=\${FLATPAK_DEST} gaphor
+  - pip3 install --no-index --no-cache-dir --find-links="file://\${PWD}" setuptools_rust wheel
+  - pip3 install --no-index --no-cache-dir --find-links="file://\${PWD}" --prefix=\${FLATPAK_DEST} gaphor
 sources:
 EOF
 
