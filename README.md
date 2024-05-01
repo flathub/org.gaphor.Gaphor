@@ -19,15 +19,15 @@ For more information and more applications see https://flathub.org.
 
 ### Install Dependencies
 
-* Ubuntu: `sudo apt-get install --no-install-recommends jq flatpak-builder`
-* Fedora: `sudo dnf install jq flatpak-builder`
-* openSUSE: `sudo zypper in --no-recommends jq flatpak-builder`
+* Ubuntu: `sudo apt-get install --no-install-recommends jq flatpak-builder appstream-compose`
+* Fedora: `sudo dnf install jq flatpak-builder appstream-compose`
+* openSUSE: `sudo zypper in --no-recommends jq flatpak-builder Appstream-compose`
 
 Flatpak dependencies: 
 
 ```
 flatpak remote-add flathub --user --if-not-exists https://flathub.org/repo/flathub.flatpakrepo
-flatpak install --user flathub org.gnome.Sdk/x86_64/45
+flatpak install --user flathub org.gnome.Sdk/x86_64/46
 ```
 
 Finally, run `make` to build a flatpak. `make install` will install it in your local Flatpak environment.
