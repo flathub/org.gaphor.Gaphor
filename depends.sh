@@ -7,7 +7,7 @@ GAPHOR_VERSION=${1}
 BUILD=build/pip
 
 mkdir -p ${BUILD}
-pip3 download -q --dest ${BUILD}  gaphor=="${GAPHOR_VERSION}"
+pip3 download -vv --dest ${BUILD} --extra-index-url https://pypi.org/simple  gaphor=="${GAPHOR_VERSION}"
 
 # Generate stubs for any binary installation file
 for FILE in ${BUILD}/*manylinux*
