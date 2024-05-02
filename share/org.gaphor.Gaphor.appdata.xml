@@ -99,6 +99,19 @@
     </p>
   </description>
   <releases>
+    <release version="2.25.1" date="2024-04-30">
+      <description>
+        <ul>
+          <li>macOS: fix screen update delays</li>
+          <li>Restore zoom buttons</li>
+          <li>Add feature to hide requirement text</li>
+          <li>Fix pasting of associations fails</li>
+          <li>Improve undo for cases when a key is pressed when dragging</li>
+          <li>Add Icelandic, and update Hungarian, Chinese (Simplified), and Italian translations</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.25.1</url>
+    </release>
     <release version="2.25.0" date="2024-04-15">
       <description>
         <ul>

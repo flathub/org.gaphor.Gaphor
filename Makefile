@@ -6,7 +6,7 @@
 
 ID := org.gaphor.Gaphor
 # Do not change version by hand!
-VERSION := 2.25.0
+VERSION := 2.25.1
 
 BUILD := build
 DIST := dist
@@ -38,8 +38,6 @@ $(REPO): gaphor-bin.yaml graphviz.yaml org.gaphor.Gaphor.yaml
 	flatpak-builder --force-clean --repo=$@ $(BUILD)/build $(ID).yaml
 	flatpak build-update-repo $(REPO)
 
-dist-flatpaks: $(DIST)/$(ID).flatpak
-
 clean:
 	rm -f gaphor-bin.yaml
 	rm -rf $(BUILD)
@@ -55,6 +53,9 @@ setup:
 
 install: $(DIST)/$(ID).flatpak
 	flatpak install --user --reinstall $(DIST)/$(ID).flatpak
+
+run:
+	flatpak run org.gaphor.Gaphor//master
 
 uninstall:
 	flatpak uninstall org.gaphor.Gaphor//master
