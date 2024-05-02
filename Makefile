@@ -59,3 +59,5 @@ run:
 
 uninstall:
 	flatpak uninstall org.gaphor.Gaphor//master
+
+.PHONY: all dist update only-update version appdata clean setup install run uninstall
