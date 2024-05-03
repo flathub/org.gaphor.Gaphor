@@ -42,3 +42,4 @@ To make a new version run `make update VERSION=a.b.c`.
 Check in the updated Appdata and `gaphor-bin.yaml` file and create a
 pull request on https://github.com/flathub/org.gaphor.Gaphor.
 
+
