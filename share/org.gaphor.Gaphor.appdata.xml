@@ -99,6 +99,28 @@
     </p>
   </description>
   <releases>
+    <release version="2.26.0" date="2024-07-08">
+      <description>
+        <ul>
+          <li>After a crash, Gaphor can now restore your modeling sessions</li>
+          <li>Start migrating root model to KerML</li>
+          <li>Add ability to apply stereotypes to diagrams</li>
+          <li>Ensure the diagram always has default focus</li>
+          <li>Improve how Property Pages are created.</li>
+          <li>Improve checks to avoid cycles in element ownership</li>
+          <li>Change Gaphor logo to SysML/UML Modeling</li>
+          <li>Improve scripting docs</li>
+          <li>Adding instructions for anaconda install with Windows</li>
+          <li>Fix long Property Editor slot text doesn't wrap</li>
+          <li>Fix diagram renaming shortcut</li>
+          <li>Fix unexpected model changed popup</li>
+          <li>Fix deletion of attribute/operation in element editor</li>
+          <li>Fix select association AssertionError</li>
+          <li>Update Italian, Spanish, and Croatian translations</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.26.0</url>
+    </release>
     <release version="2.25.1" date="2024-04-30">
       <description>
         <ul>
