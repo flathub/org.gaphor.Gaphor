@@ -99,6 +99,29 @@
     </p>
   </description>
   <releases>
+    <release version="2.27.0" date="2024-10-09">
+      <description>
+        <ul>
+          <li>File changed notification only show when the file really changed.</li>
+          <li>Support macOS ARM (Apple Silicon) and improve macOS styling</li>
+          <li>Add option to export all diagrams from UI</li>
+          <li>Remove XMI export plugin</li>
+          <li>Show main window and progress indicator when loading model from command line</li>
+          <li>Model improvements: Move Types to Core model, InterfaceRealization.implementingClassifier</li>
+          <li>Add trigger and action for State Machine transitions</li>
+          <li>Add a special C4 Dependency with a technology field</li>
+          <li>Class attributes: add read-only attribute support, and allow spaces in values</li>
+          <li>Improved Picture selection and provide a default name based on the filename</li>
+          <li>Be more lenient with association end multiplicity</li>
+          <li>Model Browser: fix elements showing up in the root of the model</li>
+          <li>Fix long file names and loaded models showing as modified</li>
+          <li>Fix exception when dropping an association on a diagram</li>
+          <li>Update docs for plugin development, CSS examples, and C4 banking example</li>
+          <li>Update translations for Gaphor</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/2.27.0</url>
+    </release>
     <release version="2.26.0" date="2024-07-08">
       <description>
         <ul>
