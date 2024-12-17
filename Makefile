@@ -25,7 +25,9 @@ version:
 	sed -i "s/^VERSION .*/VERSION := ${VERSION}/" Makefile
 
 appdata:
-	python3 update-appdata.py $(VERSION)
+	python3 -m venv .venv
+	.venv/bin/pip --disable-pip-version-check --require-virtualenv install -r requirements.txt
+	.venv/bin/python3 update-appdata.py $(VERSION)
 
 gaphor-bin.yaml: depends.sh
 	bash depends.sh ${VERSION} > gaphor-bin.yaml

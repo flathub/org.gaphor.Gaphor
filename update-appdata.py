@@ -6,6 +6,8 @@ import time
 import urllib.request
 from xml.etree import ElementTree as etree
 
+from markdown_it import MarkdownIt
+
 
 def update_release(appdata_file, version, date, notes):
     tree = etree.parse(appdata_file)
@@ -38,11 +40,7 @@ def update_release_details(release, version, notes):
     for node in release.findall("*"):
         release.remove(node)
 
-    description = etree.SubElement(release, "description")
-    ul = etree.SubElement(description, "ul")
-    for note in notes:
-        li = etree.SubElement(ul, "li")
-        li.text = note
+    release.append(notes)
 
     url = etree.SubElement(release, "url")
     url.text = f"https://github.com/gaphor/gaphor/releases/tag/{version}"
@@ -61,33 +59,31 @@ def test_download_news_from_github():
     assert "2.18.0" in news
 
 
-def parse_news(news_text: str):
-    news = {}
-    current_version = None
-    current_news = None
+def parse_changelog(changelog_md: str):
+    md = MarkdownIt("default", {"breaks": False, "html": True})
+    html = md.render(changelog_md)
+    changelog = etree.fromstring(f"<root>{html}</root>")
 
-    for line in news_text.splitlines():
-        if re.match(r"^\d+.\d+.\d+$", line):
-            current_news = []
-            current_version = line
-            news[current_version] = current_news
-        elif current_version and re.match(r"^ *- +", line):
-            current_news.append(re.sub(r"^ *- +", "", line))
-        elif current_news and re.match(r"^ +\w", line):
-            current_news[-1] = current_news[-1] + " " + line.strip()
-        elif not line:
-            current_version = None
+    version = "INVALID"
+    news: dict[str, etree.Element] = {}
+
+    for node in changelog:
+        if node.tag == "h2" and node.text:
+            version = node.text
+            news[version] = etree.Element("description")
+        else:
+            news[version].append(node)
 
     return news
 
 
-def test_parse_news():
+def test_parse_changelog():
     fragment = textwrap.dedent("""\
         2.1.0
         ------
         - Feature
           three
-         - Feature four
+        - Feature four
 
         2.0.0
         ------
@@ -95,15 +91,15 @@ def test_parse_news():
         - Feature two
         """)
 
-    news = parse_news(fragment)
+    changelog = parse_changelog(fragment)
 
-    assert "2.0.0" in news
-    assert "2.1.0" in news
+    assert "2.0.0" in changelog
+    assert "2.1.0" in changelog
 
-    assert "Feature one" in news["2.0.0"]
-    assert "Feature two" in news["2.0.0"]
-    assert "Feature three" in news["2.1.0"]
-    assert "Feature four" in news["2.1.0"]
+    assert "Feature one" in etree.tostring(changelog["2.0.0"]).decode("utf-8")
+    assert "Feature two" in etree.tostring(changelog["2.0.0"]).decode("utf-8")
+    assert "Feature\nthree" in etree.tostring(changelog["2.1.0"]).decode("utf-8")
+    assert "Feature four" in etree.tostring(changelog["2.1.0"]).decode("utf-8")
 
 
 def run_tests():
@@ -118,7 +114,12 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         version = sys.argv[1]
         today = time.strftime("%Y-%m-%d")
-        news = parse_news(download_news_from_github())
-        update_release("share/org.gaphor.Gaphor.appdata.xml", version, today, news.get(version, ["Bug fixes."]))
+        changelog = parse_changelog(download_news_from_github())
+        update_release(
+            "share/org.gaphor.Gaphor.appdata.xml",
+            version,
+            today,
+            changelog.get(version, ["Bug fixes."]),
+        )
     else:
         run_tests()
