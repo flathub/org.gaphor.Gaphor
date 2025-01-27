@@ -99,6 +99,34 @@
     </p>
   </description>
   <releases>
+    <release version="3.0.0" date="2025-01-26">
+      <description>
+        <ul>
+          <li>Improved UI, based on user feedback from the University of Mannheim and Mainz.</li>
+          <li>Double click on a model element in the Model Browser now selects
+the element on the open diagram.</li>
+          <li>Edit settings have moved to global preferences.</li>
+          <li>Added a small, neat style editor to get you started customizing the diagram style.</li>
+          <li>UML Dependencies now show as relationships on package level.</li>
+        </ul>
+        <p>Internal changes:</p>
+        <ul>
+          <li>Data model changes: UML is now a completely separate model.
+This gives us the ability to implement models not based on UML,
+such as SysML v2.</li>
+          <li>Models are now saved with their language/domain namespace.
+This allows for elements in different models to have the same name.</li>
+          <li>Associations can now also contain subsets. This allows for
+relations in UML that were previously not possible.</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Fixed file changed notification after save</li>
+          <li>Fixed issues in Undo behavior</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/3.0.0</url>
+    </release>
     <release version="2.27.0" date="2024-10-09">
       <description>
         <ul>
