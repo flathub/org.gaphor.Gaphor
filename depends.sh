@@ -7,7 +7,7 @@ GAPHOR_VERSION=${1}
 BUILD=build/pip
 
 mkdir -p ${BUILD}
-pip3 download -q --no-binary dulwich --no-binary pillow --dest ${BUILD} --extra-index-url https://pypi.org/simple  gaphor=="${GAPHOR_VERSION}" setuptools_rust wheel
+pip3 download -q --no-binary dulwich --no-binary pillow --dest ${BUILD} --extra-index-url https://pypi.org/simple  gaphor=="${GAPHOR_VERSION}" setuptools_rust wheel pybind11
 
 cat << EOF
 name: gaphor-bin
