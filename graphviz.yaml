@@ -1,13 +1,13 @@
 name: graphviz
 buildsystem: simple
 build-commands:
-  - tar xzf graphviz-12.2.1.tar.gz
-  - cd graphviz-12.2.1 && ./configure --prefix=${FLATPAK_DEST}  --without-x --with-qt=no --with-gtk=no --enable-swig=no --with-webp=no --with-rsvg=no --with-visio=no --with-gdk-pixbuf=no --with-pangocairo=no
-  - cd graphviz-12.2.1 && make install
+  - tar xf graphviz-14.0.2.tar.xz
+  - cd graphviz-14.0.2 && ./configure --prefix=${FLATPAK_DEST}  --without-x --with-qt=no --with-gtk=no --enable-swig=no --with-webp=no --with-rsvg=no --with-visio=no --with-gdk-pixbuf=no --with-pangocairo=no
+  - cd graphviz-14.0.2 && make install
 cleanup:
   - /share/man
   - /share/graphviz
 sources:
   - type: file
-    url: https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/12.2.1/graphviz-12.2.1.tar.gz
-    sha256: 242bc18942eebda6db4039f108f387ec97856fc91ba47f21e89341c34b554df8
+    url: https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/14.0.2/graphviz-14.0.2.tar.xz
+    sha256: 31af4728cd0d7db91013d29286227ae6b5264ff897647c2ebfeb85f47c08177e
