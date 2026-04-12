@@ -16,33 +16,16 @@ modules:
   - gaphor-bin.yaml
   - name: gaphor-extras
     buildsystem: simple
-    sources:
-      - type: file
-        path: share/org.gaphor.Gaphor.appdata.xml
-      - type: file
-        path: share/org.gaphor.Gaphor.xml
-      - type: file
-        path: share/org.gaphor.Gaphor.desktop
-      - type: file
-        path: logos/gaphor-24x24.png
-      - type: file
-        path: logos/gaphor-48x48.png
-      - type: file
-        path: logos/gaphor-96x96.png
-      - type: file
-        path: logos/gaphor-256x256.png
-      - type: file
-        path: logos/org.gaphor.Gaphor.svg
-      - type: file
-        path: logos/org.gaphor.Gaphor-symbolic.svg
     build-commands:
-      - install -Dm644 org.gaphor.Gaphor.appdata.xml /app/share/metainfo/org.gaphor.Gaphor.appdata.xml
-      - install -Dm644 org.gaphor.Gaphor.desktop /app/share/applications/org.gaphor.Gaphor.desktop
-      - install -Dm644 org.gaphor.Gaphor.xml /app/share/mime/packages/org.gaphor.Gaphor.xml
-      - install -Dm644 gaphor-24x24.png /app/share/icons/hicolor/24x24/apps/org.gaphor.Gaphor.png
-      - install -Dm644 gaphor-48x48.png /app/share/icons/hicolor/48x48/apps/org.gaphor.Gaphor.png
-      - install -Dm644 gaphor-96x96.png /app/share/icons/hicolor/96x96/apps/org.gaphor.Gaphor.png
-      - install -Dm644 gaphor-256x256.png /app/share/icons/hicolor/256x256/apps/org.gaphor.Gaphor.png
-      - install -Dm644 org.gaphor.Gaphor.svg /app/share/icons/hicolor/scalable/apps/org.gaphor.Gaphor.svg
-      - install -Dm644 org.gaphor.Gaphor-symbolic.svg /app/share/icons/hicolor/symbolic/apps/org.gaphor.Gaphor-symbolic.svg
+      - desktop-file-edit --remove-key=DBusActivatable data/org.gaphor.Gaphor.desktop
+      - install -Dm644 data/org.gaphor.Gaphor.appdata.xml -t /app/share/metainfo/
+      - install -Dm644 data/org.gaphor.Gaphor.desktop -t /app/share/applications/
+      - install -Dm644 data/org.gaphor.Gaphor.xml -t /app/share/mime/packages/
+      - install -Dm644 data/logos/org.gaphor.Gaphor.svg -t /app/share/icons/hicolor/scalable/apps/
+      - install -Dm644 data/logos/org.gaphor.Gaphor-symbolic.svg -t /app/share/icons/hicolor/symbolic/apps/
       - gaphor install-schemas --schemas-dir=/app/share/glib-2.0/schemas
+    sources:
+      - type: git
+        url: https://github.com/gaphor/gaphor.git
+        tag: 3.3.0
+        commit: 7c747fb483fe789046346d5f1f522e9a7316972f
