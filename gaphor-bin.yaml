@@ -14,23 +14,20 @@ sources:
     url: https://files.pythonhosted.org/packages/c0/5a/9cac0c82afec3d09ccd97c8b6502d48f165f9124db81b4bcb90b4af974ee/jedi-0.19.2-py2.py3-none-any.whl
     sha256: a8ef22bde8490f57fe5c7681a3c83cb58874daf72b4784de3cce5b6ef6edb5b9
   - type: file
-    url: https://files.pythonhosted.org/packages/87/22/b76d483683216dde3d67cba61fb2444be8d5be289bf628c13fc0fd90e5f9/wheel-0.46.3-py3-none-any.whl
-    sha256: 4b399d56c9d9338230118d705d9737a2a468ccca63d5e813e2a4fc7815d8bc4d
-  - type: file
     url: https://files.pythonhosted.org/packages/10/bd/c038d7cc38edc1aa5bf91ab8068b63d4308c66c4c8bb3cbba7dfbc049f9c/pyparsing-3.3.2-py3-none-any.whl
     sha256: 850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d
-  - type: file
-    url: https://files.pythonhosted.org/packages/b9/05/be680b1b3487472c6d344f0e7122864f1189c54d73b48ad18bac2dd4b264/gaphor-3.3.1-py3-none-any.whl
-    sha256: 3b55460f7f18368f88d3dbcbb04e0cf280bbd72e7bc3742a206dea0cf2008964
   - type: file
     url: https://files.pythonhosted.org/packages/77/f5/21d2de20e8b8b0408f0681956ca2c69f1320a3848ac50e6e7f39c6159675/babel-2.18.0-py3-none-any.whl
     sha256: e2b422b277c2b9a9630c1d7903c2a00d0830c409c59ac8cae9081c92f1aeba35
   - type: file
+    url: https://files.pythonhosted.org/packages/df/b2/87e62e8c3e2f4b32e5fe99e0b86d576da1312593b39f47d8ceef365e95ed/packaging-26.2-py3-none-any.whl
+    sha256: 5fc45236b9446107ff2415ce77c807cee2862cb6fac22b8a73826d0693b0980e
+  - type: file
+    url: https://files.pythonhosted.org/packages/99/5d/8268b644392ee874ee82a635cd0df1773de230bde356c38de28e298392cc/parso-0.8.7-py2.py3-none-any.whl
+    sha256: a8926eb2a1b915486941fdbd31e86a4baf88fe8c210f25f2f35ecec5b574ca1c
+  - type: file
     url: https://files.pythonhosted.org/packages/a2/80/09247a2be28af2c2240132a0af6c1005a2b1d089242b13a2cd782d2de8d7/pygobject-3.56.2.tar.gz
     sha256: b816098969544081de9eecedb94ad6ac59c77e4d571fe7051f18bebcec074313
-  - type: file
-    url: https://files.pythonhosted.org/packages/ab/87/99f21e9b20899d6dc1bf7544cfe53e5fa17acc21bb267971a540425357d3/pybind11-3.0.3-py3-none-any.whl
-    sha256: fb5f8e4a64946b4dcc0451c83a8c384f803bc0a62dd1ba02f199e97dbc9aad4c
   - type: file
     url: https://files.pythonhosted.org/packages/b7/29/c12876926be20e100527f541c792731ea09b995139aee9676eaacd1b751e/setuptools_rust-1.12.1-py3-none-any.whl
     sha256: b7ebd6a182e7aefa97a072e880530c9b0ec8fcca8617e0bb8ff299c1a064f693
@@ -44,14 +41,17 @@ sources:
     url: https://files.pythonhosted.org/packages/68/6d/459ded13938c2f2dadf71e107f78001d30b8466fda3acac27a55934b246e/generic-1.1.7-py3-none-any.whl
     sha256: 9048a52debd50e6d7671bb44826567a9c81d2e8302253179adfb8054ab415077
   - type: file
-    url: https://files.pythonhosted.org/packages/b6/61/fae042894f4296ec49e3f193aff5d7c18440da9e48102c3315e1bc4519a7/parso-0.8.6-py2.py3-none-any.whl
-    sha256: 2c549f800b70a5c4952197248825584cb00f033b29c692671d3bf08bf380baff
-  - type: file
     url: https://files.pythonhosted.org/packages/ed/50/abf6850135f1e95d321a525d0a36e05255a039b3fc118b7d88413e8a8207/better_exceptions-0.3.3-py3-none-any.whl
     sha256: 9c70b1c61d5a179b84cd2c9d62c3324b667d74286207343645ed4306fdaad976
   - type: file
+    url: https://files.pythonhosted.org/packages/b3/06/c3a23c9a0263b136c519f033a58d4641e73065fefc7754e9667ec206d992/pybind11-3.0.4-py3-none-any.whl
+    sha256: 961720ee652da51d531b7b2451a6bd2bc042b0106e6d9baa48ecb7d58034ce63
+  - type: file
     url: https://files.pythonhosted.org/packages/9d/76/f789f7a86709c6b087c5a2f52f911838cad707cc613162401badc665acfe/setuptools-82.0.1-py3-none-any.whl
     sha256: a59e362652f08dcd477c78bb6e7bd9d80a7995bc73ce773050228a348ce2e5bb
+  - type: file
+    url: https://files.pythonhosted.org/packages/84/44/8d54ef9e7674b91d3d41ed8e9ab2d7a2d5ef7d7f72d3a2120bb6f428b508/gaphor-3.3.2-py3-none-any.whl
+    sha256: 6a8a84bbce429677af664c9857d9433ea66e782015d7a53f679f7e7c4bf208d0
   - type: file
     url: https://files.pythonhosted.org/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl
     sha256: a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61
@@ -59,11 +59,11 @@ sources:
     url: https://files.pythonhosted.org/packages/7e/32/a7125fb28c4261a627f999d5fb4afff25b523800faed2c30979949d6facd/pydot-4.0.1-py3-none-any.whl
     sha256: 869c0efadd2708c0be1f916eb669f3d664ca684bc57ffb7ecc08e70d5e93fee6
   - type: file
-    url: https://files.pythonhosted.org/packages/7a/c2/920ef838e2f0028c8262f16101ec09ebd5969864e5a64c4c05fad0617c56/packaging-26.1-py3-none-any.whl
-    sha256: 5d9c0669c6285e491e0ced2eee587eaf67b670d94a19e94e3984a481aba6802f
+    url: https://files.pythonhosted.org/packages/72/0f/46df53e30b03cc8fee9d1bbd7ca624b4d1b579ce2e4efeaa1cb712d119b0/dulwich-1.2.1.tar.gz
+    sha256: ba43bfb3a7cad40d9607170561e8c3be42e7083b4b57af89a5f54e01577ff791
   - type: file
-    url: https://files.pythonhosted.org/packages/02/c4/bfe2a4e5b203f87ea925339691dd6e379e1a80d805dff0502e496bcaec39/dulwich-1.1.0.tar.gz
-    sha256: 9aa855db9fee0a7065ae9ffb38e14e353876d82f17e33e1a1fb3830eb8d0cf43
+    url: https://files.pythonhosted.org/packages/87/1b/9e33c09813d65e248f7f773119148a612516a4bea93e9c6f545f78455b7c/wheel-0.47.0-py3-none-any.whl
+    sha256: 212281cab4dff978f6cedd499cd893e1f620791ca6ff7107cf270781e587eced
   - type: file
     url: https://files.pythonhosted.org/packages/22/d9/1728840a22a4ef8a8f479b9156aa2943cd98c3907accd3849fb0d5f82bfd/pycairo-1.29.0.tar.gz
     sha256: f3f7fde97325cae80224c09f12564ef58d0d0f655da0e3b040f5807bd5bd3142
