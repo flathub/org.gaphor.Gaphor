@@ -3,6 +3,7 @@ buildsystem: simple
 build-commands:
   - pip3 install --no-index --no-cache-dir --find-links="file://${PWD}" setuptools_rust wheel
   - pip3 install --no-index --no-cache-dir --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} gaphor
+  - find ${FLATPAK_DEST}/lib -path '*/gaphor/locale/*/LC_MESSAGES/gaphor.mo' -exec sh -c 'lang=$(basename $(dirname $(dirname $1))); install -Dm644 $1 ${FLATPAK_DEST}/share/locale/$lang/LC_MESSAGES/gaphor.mo' _ {} \;
 sources:
   - type: file
     url: https://files.pythonhosted.org/packages/39/08/aaaad47bc4e9dc8c725e68f9d04865dbcb2052843ff09c97b08904852d84/urllib3-2.6.3-py3-none-any.whl
