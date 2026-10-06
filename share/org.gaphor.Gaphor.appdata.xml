@@ -9,6 +9,7 @@
   <summary xml:lang="hu">Egyszerű UML és SysML modellező eszköz</summary>
   <metadata_license>CC-BY-3.0</metadata_license>
   <project_license>Apache-2.0</project_license>
+  <translation type="gettext">gaphor</translation>
   <developer_name>Arjan J. Molenaar</developer_name>
   <categories>
     <category>Development</category>
@@ -99,6 +100,118 @@
     </p>
   </description>
   <releases>
+    <release version="3.3.2" date="2026-05-02">
+      <description>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Fix translations missing for wheel and flatpak installers</li>
+          <li>Fix missing translations for French and Chinese</li>
+          <li>Set html-report default zoom level to 1</li>
+          <li>Add missing html-report files to Windows and macOS installers</li>
+        </ul>
+        <p>Internal changes:</p>
+        <ul>
+          <li>Fix wrong repository access for website deploy update</li>
+          <li>Simplify readthedocs install process</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/3.3.2</url>
+    </release>
+    <release version="3.3.1" date="2026-04-15">
+      <description>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Windows: fix toolbox icons missing</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/3.3.1</url>
+    </release>
+    <release version="3.3.0" date="2026-04-12">
+      <description>
+        <ul>
+          <li>Add HTML report generator</li>
+          <li>Add an initial doodling language with simple shapes</li>
+          <li>Add help menu for documentation</li>
+          <li>Update styling of shortcuts menu</li>
+          <li>Stereotype updates for interfaces and operations</li>
+          <li>Automatically update new releases on winget</li>
+        </ul>
+        <p>Internal changes:</p>
+        <ul>
+          <li>Improvements to simplify packaging</li>
+          <li>Fix codespaces by updating the base image</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>macOS: Fix Gaphor crashes when dragging elements to a diagram</li>
+          <li>Ensure Italian translations are built</li>
+          <li>Fix crash when running gaphor with the <code>--profile</code> option</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/3.3.0</url>
+    </release>
+    <release version="3.2.0" date="2025-11-09">
+      <description>
+        <ul>
+          <li>Troubleshooting info can now be found in the About dialog</li>
+          <li>Introduction of CSS classes: <code>.item</code> for all items you put on the diagram</li>
+          <li>Improved updates in Model Browser for attribute/parameter types a.o.</li>
+          <li>macOS: native window decorations and window menu</li>
+        </ul>
+        <p>Internal changes:</p>
+        <ul>
+          <li>Model elements can not only be queried from their authoritative model</li>
+          <li>Gaphor requires Python 3.12 or newer (was 3.11)</li>
+          <li>Use Python native enumerations (<code>enum</code> module) in data models</li>
+          <li>Improvements to setting modeling values to strings instead of literal strings</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Fix save for new models</li>
+          <li>Fix message (sequence diagram) name placement</li>
+          <li>Windows: set English as the default installer language</li>
+          <li>Allow Rubberband selection in diagram frame</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/3.2.0</url>
+    </release>
+    <release version="3.1.0" date="2025-05-21">
+      <description>
+        <ul>
+          <li>Improve the UI with a replaced floating toolbar and view switcher in the element editor</li>
+          <li>Enhance window management: new window command, existing window activation</li>
+          <li>Add macOS-specific improvements: native menubar and window controls</li>
+          <li>Copy directly from diagram to clipboard as PNG and SVG</li>
+          <li>Improve drag and drop with highlighted drop zones</li>
+          <li>Add a "greeter" command-line option and D-Bus service file</li>
+          <li>Add support for Unlimited natural type as union type</li>
+          <li>Add a small teaser text to help users learn how to contribute to Gaphor</li>
+        </ul>
+        <p>Internal changes:</p>
+        <ul>
+          <li>Update core dependencies (Gaphas 5, jinja2, PyGObject)</li>
+          <li>Improve storage with separate load/save modules</li>
+          <li>Enhance documentation including troubleshooting for Windows</li>
+          <li>Add project metadata</li>
+          <li>Improve compatibility with UML specifications</li>
+          <li>Fix build issues with Read the Docs</li>
+          <li>Apply various styling and performance improvements</li>
+          <li>Improve handling of legacy models (pre-3.0)</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Fix file export issues (exported file names and PDF diagram exports)</li>
+          <li>Correct issues with element relationships and properties</li>
+          <li>Fix window creation and activation problems</li>
+          <li>Resolve drag and drop issues between Activities and Partitions</li>
+          <li>Fix keyboard shortcuts including Ctrl+q</li>
+          <li>Correct handling of element values and limits</li>
+          <li>Fix touch interaction when dragging</li>
+          <li>Address UI display issues with long class names</li>
+        </ul>
+      </description>
+      <url>https://github.com/gaphor/gaphor/releases/tag/3.1.0</url>
+    </release>
     <release version="3.0.0" date="2025-01-26">
       <description>
         <ul>
