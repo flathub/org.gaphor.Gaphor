@@ -1,4 +1,3 @@
-import re
 import ssl
 import sys
 import textwrap
