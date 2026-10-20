@@ -23,7 +23,7 @@ For more information and more applications see https://flathub.org.
 * Fedora: `sudo dnf install jq flatpak-builder appstream-compose`
 * openSUSE: `sudo zypper in --no-recommends jq flatpak-builder AppStream-compose`
 
-Flatpak dependencies: 
+Flatpak dependencies:
 
 ```
 flatpak remote-add flathub --user --if-not-exists https://flathub.org/repo/flathub.flatpakrepo
@@ -44,5 +44,3 @@ To make a new version run `make update VERSION=a.b.c`.
 
 Check in the updated Appdata and `gaphor-bin.yaml` file and create a
 pull request on https://github.com/flathub/org.gaphor.Gaphor.
-
-
