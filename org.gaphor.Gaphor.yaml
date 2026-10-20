@@ -14,23 +14,8 @@ cleanup:
 modules:
   - graphviz.yaml
   - gaphor-bin.yaml
-  - name: gaphor-extras
+  - gaphor-shared.yaml
+  - name: post-install
     buildsystem: simple
-    sources:
-      - type: git
-        url: https://github.com/gaphor/gaphor.git
-        tag: '3.3.2'
-        commit: c1e626973e64534fcccd861e293f4e907b6a869c
     build-commands:
-      - install -Dm644 data/org.gaphor.Gaphor.appdata.xml /app/share/metainfo/org.gaphor.Gaphor.appdata.xml
-      - install -Dm644 data/org.gaphor.Gaphor.desktop /app/share/applications/org.gaphor.Gaphor.desktop
-      - install -Dm644 data/org.gaphor.Gaphor.service /app/share/dbus-1/services/org.gaphor.Gaphor.service
-      - sed -i 's|^Exec=/usr/bin/gaphor |Exec=/app/bin/gaphor |' /app/share/dbus-1/services/org.gaphor.Gaphor.service
-      - install -Dm644 data/org.gaphor.Gaphor.xml /app/share/mime/packages/org.gaphor.Gaphor.xml
-      - install -Dm644 data/logos/gaphor-24x24.png /app/share/icons/hicolor/24x24/apps/org.gaphor.Gaphor.png
-      - install -Dm644 data/logos/gaphor-48x48.png /app/share/icons/hicolor/48x48/apps/org.gaphor.Gaphor.png
-      # - install -Dm644 data/logos/gaphor-96x96.png /app/share/icons/hicolor/96x96/apps/org.gaphor.Gaphor.png
-      # - install -Dm644 data/logos/gaphor-256x256.png /app/share/icons/hicolor/256x256/apps/org.gaphor.Gaphor.png
-      - install -Dm644 data/logos/org.gaphor.Gaphor.svg /app/share/icons/hicolor/scalable/apps/org.gaphor.Gaphor.svg
-      - install -Dm644 data/logos/org.gaphor.Gaphor-symbolic.svg /app/share/icons/hicolor/symbolic/apps/org.gaphor.Gaphor-symbolic.svg
       - gaphor install-schemas --schemas-dir=/app/share/glib-2.0/schemas
