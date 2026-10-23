@@ -16,18 +16,14 @@ all: dist
 
 dist: $(DIST)/$(ID).flatpak
 
-update: clean version appdata
+update: clean version
 	$(MAKE) clean all
 
-only-update: clean version appdata gaphor-bin.yaml
+only-update: clean version gaphor-bin.yaml
 
 version:
 	sed -i "s/^VERSION .*/VERSION := ${VERSION}/" Makefile
-
-appdata:
-	python3 -m venv .venv
-	.venv/bin/pip --disable-pip-version-check --require-virtualenv install -r requirements.txt
-	.venv/bin/python3 update-appdata.py $(VERSION)
+	bash update-source.sh "$(VERSION)"
 
 gaphor-bin.yaml: depends.sh
 	bash depends.sh ${VERSION} > gaphor-bin.yaml
@@ -36,7 +32,7 @@ $(DIST)/$(ID).flatpak: $(REPO)
 	mkdir -p dist
 	flatpak build-bundle $(REPO) $@ $(ID)
 
-$(REPO): gaphor-bin.yaml graphviz.yaml org.gaphor.Gaphor.yaml
+$(REPO): gaphor-bin.yaml gaphor-shared.yaml graphviz.yaml org.gaphor.Gaphor.yaml
 	flatpak-builder --force-clean --repo=$@ $(BUILD)/build $(ID).yaml
 	flatpak build-update-repo $(REPO)
 
@@ -62,4 +58,4 @@ run:
 uninstall:
 	flatpak uninstall org.gaphor.Gaphor//master
 
-.PHONY: all dist update only-update version appdata clean setup install run uninstall
+.PHONY: all dist update only-update version extras clean setup install run uninstall
