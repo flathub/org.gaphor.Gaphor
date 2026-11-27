@@ -19,3 +19,4 @@ modules:
     buildsystem: simple
     build-commands:
       - gaphor install-schemas --schemas-dir=/app/share/glib-2.0/schemas
+      - find ${FLATPAK_DEST}/lib -path '*/gaphor/locale/*/LC_MESSAGES/gaphor.mo' -exec sh -c 'lang=$(basename $(dirname $(dirname $1))); install -Dm644 $1 ${FLATPAK_DEST}/share/locale/$lang/LC_MESSAGES/gaphor.mo' _ {} \;
