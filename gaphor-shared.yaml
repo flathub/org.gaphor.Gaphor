@@ -3,8 +3,8 @@ buildsystem: simple
 sources:
   - type: git
     url: https://github.com/gaphor/gaphor.git
-    tag: '3.3.2'
-    commit: c1e626973e64534fcccd861e293f4e907b6a869c
+    tag: '3.4.0'
+    commit: '01c54692cbe73d1119eddfee8424fe76f883d811'
 build-commands:
   - install -Dm644 data/org.gaphor.Gaphor.appdata.xml /app/share/metainfo/org.gaphor.Gaphor.appdata.xml
   - install -Dm644 data/org.gaphor.Gaphor.desktop /app/share/applications/org.gaphor.Gaphor.desktop
